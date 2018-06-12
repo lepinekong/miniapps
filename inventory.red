@@ -38,6 +38,7 @@ record: make reactor! [
 header: [
         panel [
         ;text "Description:" field 250x24 data records/1/3
+        ;data-binding using react keyword
         text "Description:" field 250x24 react [face/data: record/description]
         return
         text "Type:" field 250x24 react [face/data: record/type]

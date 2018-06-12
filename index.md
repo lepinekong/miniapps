@@ -4,7 +4,7 @@
 
 ### Productivity Apps
 
-- [Pomodoro / Countdown](./doc/countdown/)
+- [Pomodoro / Countdown ![https://i.imgur.com/uKb1Iyr.png](https://i.imgur.com/uKb1Iyr.png)](./doc/countdown/)
                         
 - [Jotnote](./doc/jotnote/)
                         
