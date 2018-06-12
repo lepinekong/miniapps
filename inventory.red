@@ -4,7 +4,8 @@ Red [
 
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
-    write data-file read http://miniapps.red/inventory.csv
+    write data-file read http://miniapps.red/db/inventory.csv
+    print rejoin ["Created " clean-path data-file]
 ]
 
 lines: skip Read/lines data-file 1
