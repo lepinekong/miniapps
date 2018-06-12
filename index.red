@@ -16,23 +16,23 @@ Article: [
     Infos-Apps: [
         .title: {Infos Apps} 
         .links: [
-            {Weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
+            {do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
         ]    
     ]     
 
     Productivity-Apps: [
         .title: {Productivity Apps} 
         .links: [
-            {Pomodoro / Countdown ![https://i.imgur.com/uKb1Iyr.png](https://i.imgur.com/uKb1Iyr.png)} 
+            {do read http://miniapps.red/pomodoro ![https://i.imgur.com/uKb1Iyr.png](https://i.imgur.com/uKb1Iyr.png)} 
             %./doc/countdown/
-            {Jotnote ![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)} %./doc/jotnote/
+            {do read http://miniapps.red/note ![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)} %./doc/jotnote/
         ]    
     ]
 
     Stats-Apps: [
         .title: {Stats Apps} 
         .links: [
-            {Piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)} %./doc/piechart/
+            {do read http://miniapps.red/piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)} %./doc/piechart/
         ]    
     ]
 
