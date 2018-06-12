@@ -3,13 +3,22 @@ Red [
 ]
 
 
-
-records: [
-    ["EUR" "USD" 1.17459]
+records: copy [
+    ;["EUR" "USD" 1.17459]
 ]
 
-url-rates: https://api.currex.info/json/latest/USD/
+do read http://redlang.red/json
 
+url-rates: https://api.currex.info/json/latest/USD/
+rates: load-json read url-rates
+rates: rates/rates
+forall rates [
+    rate: rates/1
+    if rate/currency = "EUR" [
+        append/only records compose ["EUR" "USD" (rate/rate)] 
+        break
+    ]
+]
 
 record: make reactor! [
     row: 1
