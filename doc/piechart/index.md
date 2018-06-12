@@ -1,8 +1,5 @@
 
-# miniApps.red
-
-
-### Piechart
+# Piechart
 
 ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)
                     
@@ -11,6 +8,14 @@
 
 [http://miniapps.red/doc/piechart/index.read](https://github.com/lepinekong/miniapps/blob/master/doc/piechart/index.read)
 
+Published urls:
+- [http://miniapps.red/piechart.red](http://miniapps.red/piechart.red)
+                        
+- [http://miniapps.red/piechart](http://miniapps.red/piechart)
+                        
+Repo url:
+- [https://github.com/lepinekong/miniapps/blob/master/piechart.red](https://github.com/lepinekong/miniapps/blob/master/piechart.red)
+                        
 
 ### Pre-requisite
 

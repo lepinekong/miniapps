@@ -5,10 +5,9 @@ Red [
 
 Article: [
 
-    Title: {miniApps.red}
+    Title: {Piechart}
 
     Screen-copies: [
-        .title: {Piechart}
         .image: https://i.imgur.com/aIWrtIo.png
     ]    
 
@@ -16,8 +15,16 @@ Article: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://miniapps.red/doc/piechart/index.read](https://github.com/lepinekong/miniapps/blob/master/doc/piechart/index.read)
         }
-        .app-url: http://miniapps.red/piechart.red
-        .doc-Url: http://miniapps.red/piechart
+
+        .text: {Published urls:}
+        .Links: [
+            http://miniapps.red/piechart.red 
+            http://miniapps.red/piechart        
+        ]
+        .text: {Repo url:}
+        .Links: [
+            https://github.com/lepinekong/miniapps/blob/master/piechart.red
+        ]         
         
     ]    
     

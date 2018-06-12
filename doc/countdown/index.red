@@ -4,10 +4,9 @@ Red [
 
 Article: [
 
-    Title: {miniApps.red}
+    Title: {Countdown}
 
     Screen-copies: [
-        .title: {Countdown}
         .image: https://i.imgur.com/uKb1Iyr.png 
     ]    
         
@@ -17,6 +16,18 @@ Article: [
         .text: {[http://miniapps.red/doc/countdown/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/countdown/index.red)
         }
         .Published-Url: http://miniapps.red/countdown.red
+
+        .text: {Published urls:}
+        .Links: [
+            http://miniapps.red/countdown.red 
+            http://miniapps.red/countdown   
+            http://miniapps.red/pomodoro.red 
+            http://miniapps.red/pomodoro                    
+        ]
+        .text: {Repo url:}
+        .Links: [
+            https://github.com/lepinekong/miniapps/blob/master/countdown.red
+        ]     
     ]    
 
 

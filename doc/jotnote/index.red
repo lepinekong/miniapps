@@ -4,21 +4,28 @@ Red [
 
 Article: [
 
-    Title: {miniApps.red}
+    Title: {Jotnote}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/jotnote/index.red)
         }
-        .Published-Urls: [
-            http://miniapps.red/jotnote.red 
-            http://miniapps.red/jotnote
-            http://miniapps.red/note         
+
+        .text: {Published urls:}
+        .Links: [
+            http://miniapps.red/jotnote.red
+            http://miniapps.red/note.red  
+            http://miniapps.red/jotnote   
+            http://miniapps.red/note       
         ]
+        .text: {Repo url:}
+        .Links: [
+            https://github.com/lepinekong/miniapps/blob/master/jotnote.red
+        ]         
+
     ]  
 
     Screen-copies: [
-        .title: {Jotnote}
         .image: https://i.imgur.com/a4vpErj.png
     ]         
     

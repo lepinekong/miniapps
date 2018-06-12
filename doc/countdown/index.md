@@ -1,8 +1,5 @@
 
-# miniApps.red
-
-
-### Countdown
+# Countdown
 
 ![https://i.imgur.com/uKb1Iyr.png](https://i.imgur.com/uKb1Iyr.png)
                     
@@ -11,6 +8,18 @@
 
 [http://miniapps.red/doc/countdown/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/countdown/index.red)
 
+Published urls:
+- [http://miniapps.red/countdown.red](http://miniapps.red/countdown.red)
+                        
+- [http://miniapps.red/countdown](http://miniapps.red/countdown)
+                        
+- [http://miniapps.red/pomodoro.red](http://miniapps.red/pomodoro.red)
+                        
+- [http://miniapps.red/pomodoro](http://miniapps.red/pomodoro)
+                        
+Repo url:
+- [https://github.com/lepinekong/miniapps/blob/master/countdown.red](https://github.com/lepinekong/miniapps/blob/master/countdown.red)
+                        
 
 ### Pre-requisite
 

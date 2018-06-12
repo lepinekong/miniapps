@@ -1,14 +1,23 @@
 
-# miniApps.red
+# Jotnote
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
 [http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/jotnote/index.red)
 
-
-### Jotnote
-
+Published urls:
+- [http://miniapps.red/jotnote.red](http://miniapps.red/jotnote.red)
+                        
+- [http://miniapps.red/note.red](http://miniapps.red/note.red)
+                        
+- [http://miniapps.red/jotnote](http://miniapps.red/jotnote)
+                        
+- [http://miniapps.red/note](http://miniapps.red/note)
+                        
+Repo url:
+- [https://github.com/lepinekong/miniapps/blob/master/jotnote.red](https://github.com/lepinekong/miniapps/blob/master/jotnote.red)
+                        
 ![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)
                     
 
