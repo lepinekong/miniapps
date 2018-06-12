@@ -6,6 +6,10 @@ Article: [
 
     Title: {Jotnote}
 
+    Screen-copies: [
+        .image: https://i.imgur.com/a4vpErj.png
+    ]       
+
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/jotnote/index.red)
@@ -25,9 +29,7 @@ Article: [
 
     ]  
 
-    Screen-copies: [
-        .image: https://i.imgur.com/a4vpErj.png
-    ]         
+      
     
     Pre-Requisites: [
 

@@ -6,6 +6,10 @@ Article: [
 
     Title: {Weather}
 
+    Screen-copies: [
+        .image: https://i.imgur.com/FZ3BTKy.png
+    ]       
+
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/weather/index.red)
@@ -21,9 +25,7 @@ Article: [
         ]        
     ]  
 
-    Screen-copies: [
-        .image: https://i.imgur.com/FZ3BTKy.png
-    ]         
+      
     
     Pre-Requisites: [
 

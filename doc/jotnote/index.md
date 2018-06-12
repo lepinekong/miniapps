@@ -1,6 +1,8 @@
 
 # Jotnote
 
+![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)
+                    
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
@@ -18,8 +20,6 @@ Published urls:
 Repo url:
 - [https://github.com/lepinekong/miniapps/blob/master/jotnote.red](https://github.com/lepinekong/miniapps/blob/master/jotnote.red)
                         
-![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)
-                    
 
 ### Pre-requisite
 
