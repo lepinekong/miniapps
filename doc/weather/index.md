@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/weather/index.red)
+[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/weather/index.red)
 
 
 ### weather

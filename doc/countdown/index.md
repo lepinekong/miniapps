@@ -9,7 +9,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://miniapps.red/doc/countdown/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/countdown/index.red)
+[http://miniapps.red/doc/countdown/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/countdown/index.red)
 
 
 ### Pre-requisite

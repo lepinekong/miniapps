@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/jotnote/index.red)
+[http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/jotnote/index.red)
 
 
 ### Jotnote
