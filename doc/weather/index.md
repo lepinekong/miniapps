@@ -1,5 +1,5 @@
 
-# miniApps.red
+# Weather
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
@@ -14,9 +14,6 @@ Published urls:
 Repo url:
 - [https://github.com/lepinekong/miniapps/blob/master/weather.red](https://github.com/lepinekong/miniapps/blob/master/weather.red)
                         
-
-### weather
-
 ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)
                     
 

@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {miniApps.red}
+    Title: {Weather}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
@@ -22,7 +22,6 @@ Article: [
     ]  
 
     Screen-copies: [
-        .title: {weather}
         .image: https://i.imgur.com/FZ3BTKy.png
     ]         
     
