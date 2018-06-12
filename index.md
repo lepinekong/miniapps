@@ -6,8 +6,7 @@
 
 
 - Download [red-lang on red-lang.org](https://www.red-lang.org/p/download.html) (only 1 Mb)
-or
-- Paste this oneliner in Powershell:
+- Or paste this oneliner in Powershell:
 
 
 

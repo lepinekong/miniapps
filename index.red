@@ -18,8 +18,7 @@ Article: [
         .title: {Pre-requisite}
         .text: {
             - Download [red-lang on red-lang.org](https://www.red-lang.org/p/download.html) (only 1 Mb)
-            or
-            - Paste this oneliner in Powershell:
+            - Or paste this oneliner in Powershell:
         }
         .code: {
 New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClient).DownloadFile('https://static.red-lang.org/dl/win/red-063.exe','c:\red\red.exe');Start-Process -Filepath 'c:\red\red.exe'            
