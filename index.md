@@ -4,7 +4,7 @@
 
 ### Infos Apps
 
-- [Weather](./doc/weather/)
+- [Weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)](./doc/weather/)
                         
 
 ### Productivity Apps
@@ -16,5 +16,5 @@
 
 ### Stats Apps
 
-- [Piechart](./doc/piechart/)
+- [Piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)](./doc/piechart/)
                         

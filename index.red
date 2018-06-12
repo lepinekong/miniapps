@@ -12,11 +12,11 @@ Source: [
 Article: [
 
     Title: {miniApps.red}
-
+    
     Infos-Apps: [
         .title: {Infos Apps} 
         .links: [
-            {Weather} %./doc/weather/
+            {Weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
         ]    
     ]     
 
@@ -29,13 +29,13 @@ Article: [
         ]    
     ]
 
-
     Stats-Apps: [
         .title: {Stats Apps} 
         .links: [
-            {Piechart} %./doc/piechart/
+            {Piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)} %./doc/piechart/
         ]    
     ]
+
 
 ]
         
