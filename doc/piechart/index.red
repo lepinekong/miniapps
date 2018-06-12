@@ -5,7 +5,7 @@ Red [
 
 Article: [
 
-    Title: {Miniapps.Space}
+    Title: {miniApps.red}
 
     Screen-copies: [
         .title: {Piechart}

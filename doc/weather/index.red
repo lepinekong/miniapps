@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {Miniapps.Space}
+    Title: {miniApps.red}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
