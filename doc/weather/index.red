@@ -18,7 +18,7 @@ Article: [
 
     Screen-copies: [
         .title: {weather}
-        .image: 
+        .image: https://i.imgur.com/FZ3BTKy.png
     ]         
     
     Pre-Requisites: [

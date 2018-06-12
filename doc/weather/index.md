@@ -9,6 +9,8 @@
 
 ### weather
 
+![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)
+                    
 
 ### Pre-requisite
 
