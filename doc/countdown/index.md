@@ -24,9 +24,9 @@ Repo url:
 ### Pre-requisite
 
 
-- Download [red-lang on red-lang.org](https://www.red-lang.org/p/download.html) (only 1 Mb)
-or
-- Paste this oneliner in Powershell:
+- Download [red-lang](https://www.red-lang.org/p/download.html) on [red-lang.org](https://www.red-lang.org) (only 1 Mb)
+- Or paste this oneliner in [powershell](http://www.powertheshell.com/topic/learnpowershell/firststeps/console/):
+
 
 
 
