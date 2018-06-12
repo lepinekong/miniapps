@@ -13,6 +13,13 @@ Article: [
 
     Title: {miniApps.red}
 
+    Infos-Apps: [
+        .title: {Infos Apps} 
+        .links: [
+            {Weather} %./doc/weather/
+        ]    
+    ]     
+
     Productivity-Apps: [
         .title: {Productivity Apps} 
         .links: [
@@ -22,18 +29,11 @@ Article: [
         ]    
     ]
 
-    Travel-Apps: [
-        .title: {Travel Apps} 
-        .links: [
-            {Weather} %./doc/weather/
-        ]    
-    ]    
 
     Stats-Apps: [
         .title: {Stats Apps} 
         .links: [
             {Piechart} %./doc/piechart/
-
         ]    
     ]
 
