@@ -1,5 +1,5 @@
 Red [
-    Title: "myMiniApps.space"
+    Title: "miniApps.red"
 ]
 
 Source: [
@@ -11,7 +11,7 @@ Source: [
             
 Article: [
 
-    Title: {myMiniApps.space}
+    Title: {miniApps.red}
 
     Productivity-Apps: [
         .title: {Productivity Apps} 
