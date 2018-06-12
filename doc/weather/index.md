@@ -1,11 +1,19 @@
 
-# Miniapps.Space
+# miniApps.red
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
 [http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/weather/index.red)
 
+Published urls:
+- [http://miniapps.red/weather.red](http://miniapps.red/weather.red)
+                        
+- [http://miniapps.red/weather](http://miniapps.red/weather)
+                        
+Repo url:
+- [https://github.com/lepinekong/miniapps/blob/master/weather.red](https://github.com/lepinekong/miniapps/blob/master/weather.red)
+                        
 
 ### weather
 

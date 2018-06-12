@@ -10,10 +10,15 @@ Article: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/weather/index.red)
         }
-        .Published-Urls: [
+        .text: {Published urls:}
+        .Links: [
             http://miniapps.red/weather.red 
             http://miniapps.red/weather        
         ]
+        .text: {Repo url:}
+        .Links: [
+            https://github.com/lepinekong/miniapps/blob/master/weather.red
+        ]        
     ]  
 
     Screen-copies: [
@@ -52,6 +57,8 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         }
     
     ]    
+
+
 ]
 
 do read http://readablehumanformat.com/lib.red
