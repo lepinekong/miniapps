@@ -9,7 +9,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://myminiapps.space/doc/piechart/index.read](https://github.com/lepinekong/myminiapps/blob/master/doc/piechart/index.read)
+[http://miniapps.red/doc/piechart/index.read](https://github.com/lepinekong/myminiapps/blob/master/doc/piechart/index.read)
 
 
 ### Pre-requisite
@@ -34,7 +34,7 @@ Then run and type in red console:
 ```
 
 
-            do read http://myminiapps.space/piechart.red
+            do read http://miniapps.red/piechart.red
 
         
 ```

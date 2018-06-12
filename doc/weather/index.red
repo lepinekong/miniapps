@@ -8,11 +8,11 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://myminiapps.space/doc/weather/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/weather/index.red)
+        .text: {[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/weather/index.red)
         }
         .Published-Urls: [
-            http://myminiapps.space/weather.red 
-            http://myminiapps.space/weather        
+            http://miniapps.red/weather.red 
+            http://miniapps.red/weather        
         ]
     ]  
 
@@ -35,8 +35,8 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .text: {Then run and type in red console any of these commands: }
         .code: {
 
-            do read http://myminiapps.space/weather.red
-            do read http://myminiapps.space/weather           
+            do read http://miniapps.red/weather.red
+            do read http://miniapps.red/weather           
         }
         
 

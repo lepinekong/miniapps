@@ -4,9 +4,9 @@ Red [
 
 Source: [
 .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-.text: {[http://myminiapps.space/index.red](https://github.com/lepinekong/myminiapps/blob/master/index.red)
+.text: {[http://miniapps.red/index.red](https://github.com/lepinekong/myminiapps/blob/master/index.red)
 }
-.Published-Url: http://myminiapps.space/index
+.Published-Url: http://miniapps.red/index
             ]
             
 Article: [

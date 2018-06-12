@@ -2,4 +2,4 @@ Red [
     Title: "Weather"
 ]
 
-do read http://myminiapps.space/weather.red
+do read http://miniapps.red/weather.red

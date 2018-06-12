@@ -9,7 +9,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://myminiapps.space/doc/countdown/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/countdown/index.red)
+[http://miniapps.red/doc/countdown/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/countdown/index.red)
 
 
 ### Pre-requisite
@@ -34,10 +34,10 @@ Then run and type in red console any of these commands:
 ```
 
 
-            do read http://myminiapps.space/countdown.red
-            do read http://myminiapps.space/countdown
-            do read http://myminiapps.space/pomodoro.red
-            do read http://myminiapps.space/pomodoro
+            do read http://miniapps.red/countdown.red
+            do read http://miniapps.red/countdown
+            do read http://miniapps.red/pomodoro.red
+            do read http://miniapps.red/pomodoro
         
 ```
 

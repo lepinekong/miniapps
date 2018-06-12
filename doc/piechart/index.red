@@ -14,10 +14,10 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://myminiapps.space/doc/piechart/index.read](https://github.com/lepinekong/myminiapps/blob/master/doc/piechart/index.read)
+        .text: {[http://miniapps.red/doc/piechart/index.read](https://github.com/lepinekong/myminiapps/blob/master/doc/piechart/index.read)
         }
-        .app-url: http://myminiapps.space/piechart.red
-        .doc-Url: http://myminiapps.space/piechart
+        .app-url: http://miniapps.red/piechart.red
+        .doc-Url: http://miniapps.red/piechart
         
     ]    
     
@@ -35,7 +35,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .text: {Then run and type in red console: }
         .code: {
 
-            do read http://myminiapps.space/piechart.red
+            do read http://miniapps.red/piechart.red
 
         }
         

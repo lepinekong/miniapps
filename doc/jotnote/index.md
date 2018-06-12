@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://myminiapps.space/doc/jotnote/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/jotnote/index.red)
+[http://miniapps.red/doc/jotnote/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/jotnote/index.red)
 
 
 ### Jotnote
@@ -34,9 +34,9 @@ Then run and type in red console any of these commands:
 ```
 
 
-            do read http://myminiapps.space/jotnote.red
-            do read http://myminiapps.space/jotnote
-            do read http://myminiapps.space/note            
+            do read http://miniapps.red/jotnote.red
+            do read http://miniapps.red/jotnote
+            do read http://miniapps.red/note            
         
 ```
 

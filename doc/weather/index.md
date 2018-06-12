@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://myminiapps.space/doc/weather/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/weather/index.red)
+[http://miniapps.red/doc/weather/index.red](https://github.com/lepinekong/myminiapps/blob/master/doc/weather/index.red)
 
 
 ### weather
@@ -32,8 +32,8 @@ Then run and type in red console any of these commands:
 ```
 
 
-            do read http://myminiapps.space/weather.red
-            do read http://myminiapps.space/weather           
+            do read http://miniapps.red/weather.red
+            do read http://miniapps.red/weather           
         
 ```
 
