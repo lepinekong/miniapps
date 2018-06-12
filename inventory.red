@@ -25,12 +25,13 @@ record: make reactor! [
     row: 1
 
     Entry-Date: is [ records/(row)/1]
-    type: is [ records/(row)/2]
-    description: is [ records/(row)/3]
-    Quantity: is [ records/(row)/4]
-    Price: is [ records/(row)/5]
-    Reference: is [ records/(row)/6]
-    Note: is [ records/(row)/7]
+    End-Garantee: is [ records/(row)/2]
+    type: is [ records/(row)/3]
+    description: is [ records/(row)/4]
+    Quantity: is [ records/(row)/5]
+    Price: is [ records/(row)/6]
+    Reference: is [ records/(row)/7]
+    Note: is [ records/(row)/8]
 
 ]
 
@@ -46,6 +47,7 @@ header: [
     panel [
         text "Entry Date:" field react [face/data: record/entry-date]
         return
+        text "End Garantee:" field react [face/data: record/end-garantee]       
     ]  
 ]
 
