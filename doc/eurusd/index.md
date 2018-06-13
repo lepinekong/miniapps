@@ -51,7 +51,7 @@ Rate is the latest 24h official rate based on
 
 You can change any field in any order, no need to validate, the others will update automatically.
 
-By default USD is initialized with 400$ (limit in some countries like Cambodia):
+By default USD is initialized with 400$ (ATM limit in some countries like Cambodia):
 ![https://i.imgur.com/veP9ZMr.png](https://i.imgur.com/veP9ZMr.png)
                     
 You can set EUR for example to 500€ and USD amount will be automatically refreshed:
