@@ -18,16 +18,16 @@ Article: [
 
     Screen-copies: [
         .title: {eurusd}
-        .image: 
+        .image: https://i.imgur.com/BiQZrzI.png
     ]         
     
     Pre-Requisites: [
 
-        .title: {Pre-requisite}
+        .title: {Pre-requisites}
         .text: {
-            - Download [red-lang on red-lang.org](https://www.red-lang.org/p/download.html) (only 1 Mb)
-            or
-            - Paste this oneliner in Powershell:
+            - Download [red-lang](https://www.red-lang.org/p/download.html) on [red-lang.org](https://www.red-lang.org) (only 1 Mb)
+            - Or paste this oneliner in [powershell](http://www.powertheshell.com/topic/learnpowershell/firststeps/console/):
+
         }
         .code: {
 New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClient).DownloadFile('https://static.red-lang.org/dl/win/red-063.exe','c:\red\red.exe');Start-Process -Filepath 'c:\red\red.exe'            
@@ -45,12 +45,25 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
     Usage: [
 
         .title: {Usage}
-        .text: {Type one of command examples:
-
-            - eurusd       
+        .text: {
+            Rate is the latest 24h official rate based on
+        }
+        .link: [
+            https://api.currex.info/json/latest/USD/
+        ]
+        .text: {
+            You can change any field, the others will update automatically.
         }
     
-    ]    
+    ]  
+
+    Source-Code: [
+        .title: {Source Code:}
+        .link: [
+            https://github.com/lepinekong/miniapps/blob/master/eurusd.red
+        ]
+        .image: 
+    ]  
 ]
 
 do read http://readablehumanformat.com/lib.red
