@@ -4,7 +4,7 @@ Red [
 
 
 records: copy [
-    ;["EUR" "USD" 1.17459]
+
 ]
 
 do read http://redlang.red/json
