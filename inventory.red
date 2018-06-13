@@ -61,10 +61,10 @@ body-left: [
         text "Quantity / Price"
         return
 
-        text "quantity:" quantity: field react [face/data: record/quantity]
+        text "quantity:" quantity: field right react [face/data: record/quantity]
         return
     
-        text "price:" price: field react [face/data: record/price]
+        text "price:" price: field right react [face/data: record/price]
         return    
 ]
 
@@ -99,6 +99,14 @@ footer: [
         ][
             record/row: 1
         ]
+    ]
+
+    button "Add" [
+        append/only records [
+            {} {} {} {}
+            {} {} {} {}
+        ]
+        record/row: length? records
     ]
 
     button "save" [
@@ -138,6 +146,7 @@ footer: [
             append lines line
         ]
         save-csv/header lines %db/inventory.csv csv-header
+        print "Record saved"
 
     ]
     
