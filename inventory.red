@@ -2,7 +2,7 @@ Red [
     Title: "inventory.red"
 ]
 
-do read http://redlang.red/crud-csv.red
+do read http://redlang.red/dev/crud-csv-dev.red
 
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
@@ -41,16 +41,16 @@ header: [
         panel [
         ;text "Description:" field 250x24 data records/1/3
         ;data-binding using react keyword
-        text "Description:" field 250x24 react [face/data: record/description]
+        text "Description:" description: field 250x24 react [face/data: record/description]
         return
-        text "Type:" field 250x24 react [face/data: record/type]
+        text "Type:" type: field 250x24 react [face/data: record/type]
         return        
     ]
 
     panel [
-        text "Entry Date:" field react [face/data: record/entry-date]
+        text "Entry Date:" entry-date: field react [face/data: record/entry-date]
         return
-        text "End Garantee:" field react [face/data: record/end-garantee]       
+        text "End Garantee:" end-garantee: field react [face/data: record/end-garantee]       
     ]  
 ]
 
@@ -59,10 +59,10 @@ body-left: [
         text "Quantity / Price"
         return
 
-        text "quantity:" field react [face/data: record/quantity]
+        text "quantity:" quantity: field react [face/data: record/quantity]
         return
     
-        text "price:" field react [face/data: record/price]
+        text "price:" price: field react [face/data: record/price]
         return    
 ]
 
@@ -71,10 +71,10 @@ body-right: [
         text "Complements"
         return
 
-        text "Reference:" field 250x24 react [face/data: record/reference]
+        text "Reference:" reference: field 250x24 react [face/data: record/reference]
         return
 
-        text "Note:" field 250x24 react [face/data: record/note]
+        text "Note:" note: field 250x24 react [face/data: record/note]
         return        
 ]
 
@@ -89,7 +89,7 @@ footer: [
         ]
     ]
 
-    text 10x15 react [face/data: record/row] 
+    field-record-number: text 10x15 react [face/data: record/row] 
 
     button "next" [
         either (record/row < length? records) [
@@ -100,7 +100,20 @@ footer: [
     ]
 
     button "save" [
-        ?? record
+        record/type: type/data
+        record-number: to-integer field-record-number/data
+        ?? record   
+
+        ?? records
+
+        records: update-csv records record-number record  
+        records: head records
+
+        record1: records/1
+        record2: records/2
+        ?? records
+        ?? record1
+        ?? record2
     ]
     
 ]
