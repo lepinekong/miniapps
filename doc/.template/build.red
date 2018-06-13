@@ -5,6 +5,6 @@ Red [
 do read http://redlang.red/authoring.red
 
 template: read %index.template.red
-app: "weather"
+app: "eurusd"
 out: build-markup template
 write-clipboard out

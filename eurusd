@@ -1,0 +1,5 @@
+Red [
+    Title: "eurusd.red"
+]
+
+do read http://miniapps.red/eurusd.red
