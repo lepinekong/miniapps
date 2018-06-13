@@ -62,7 +62,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .links: [
             https://github.com/lepinekong/miniapps/blob/master/eurusd.red
         ]
-        .image: https://i.imgur.com/ASmQW7Y.png
+        .image: https://i.imgur.com/rPAjM1y.png
         .code: {
 Red [
     Title: "eurusd.red"
