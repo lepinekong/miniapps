@@ -83,6 +83,11 @@ body-right: [
 footer: [
 
     across middle
+
+    button "first" [
+        record/row: 1
+    ]
+
     button "previous" [
         either (record/row = 1) [
             record/row: length? records
@@ -99,6 +104,10 @@ footer: [
         ][
             record/row: 1
         ]
+    ]
+
+    button "last" [
+        record/row: length? records
     ]
 
     button "Add" [
