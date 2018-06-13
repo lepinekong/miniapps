@@ -58,7 +58,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
     ]  
 
     Source-Code: [
-        .title: {Source Code:}
+        .title: {Source Code}
         .links: [
             https://github.com/lepinekong/miniapps/blob/master/eurusd.red
         ]

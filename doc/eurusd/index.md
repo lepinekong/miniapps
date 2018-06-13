@@ -52,7 +52,7 @@ Rate is the latest 24h official rate based on
 You can change any field in any order, no need to validate, the others will update automatically.
 
 
-### Source Code:
+### Source Code
 
 - [https://github.com/lepinekong/miniapps/blob/master/eurusd.red](https://github.com/lepinekong/miniapps/blob/master/eurusd.red)
                         
