@@ -46,11 +46,20 @@ Then run and type in red console any of these commands:
 
 Rate is the latest 24h official rate based on
 
-- [none](https://api.currex.info/json/latest/USD/)
+- [currex.info](https://currex.info/)
                         
 
 You can change any field in any order, no need to validate, the others will update automatically.
 
+By default USD is initialized with 400$ (limit in some countries like Cambodia):
+![https://i.imgur.com/veP9ZMr.png](https://i.imgur.com/veP9ZMr.png)
+                    
+You can set EUR for example to 500€ and USD amount will be automatically refreshed:
+![https://i.imgur.com/HPdBGk5.png](https://i.imgur.com/HPdBGk5.png)
+                    
+You can also override the default rate for example to 1.15:
+![https://i.imgur.com/XbMfhq6.png](https://i.imgur.com/XbMfhq6.png)
+                    
 
 ### Source Code
 

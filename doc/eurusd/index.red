@@ -48,12 +48,18 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .text: {
             Rate is the latest 24h official rate based on
         }
-        .link: [
-            https://api.currex.info/json/latest/USD/
+        .links: [
+            {currex.info} https://currex.info/
         ]
         .text: {
             You can change any field in any order, no need to validate, the others will update automatically.
         }
+        .text: {By default USD is initialized with 400$ (limit in some countries like Cambodia):}
+        .image: https://i.imgur.com/veP9ZMr.png
+        .text: {You can set EUR for example to 500€ and USD amount will be automatically refreshed:}
+        .image: https://i.imgur.com/HPdBGk5.png
+        .text: {You can also override the default rate for example to 1.15:}
+        .image: https://i.imgur.com/XbMfhq6.png
     
     ]  
 
