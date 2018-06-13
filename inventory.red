@@ -2,7 +2,7 @@ Red [
     Title: "inventory.red"
 ]
 
-do read http://redlang.red/dev/crud-csv-dev.red
+do read http://redlang.red/crud-csv.red
 
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
@@ -10,7 +10,9 @@ if not exists? data-file: %db/inventory.csv [
     print rejoin ["Created " clean-path data-file]
 ]
 
-lines: skip Read/lines data-file 1
+lines: Read/lines data-file
+csv-header: first lines
+lines: skip lines 1
 records: copy []
 
 forall lines [
@@ -100,20 +102,43 @@ footer: [
     ]
 
     button "save" [
-        record/type: type/data
+
+        record/entry-date: entry-date/text
+        record/type: type/text
+        record/End-Garantee: End-Garantee/text
+        record/description: description/text
+        record/quantity: quantity/text
+        record/price: price/text
+        record/reference: reference/text
+        record/note: note/text
+
+        block-record: copy []
+        append block-record record/Entry-Date
+        append block-record record/End-Garantee
+        append block-record record/type
+        append block-record record/description
+        append block-record record/quantity
+        append block-record record/price
+        append block-record record/reference
+        append block-record record/note
+
         record-number: to-integer field-record-number/data
-        ?? record   
 
-        ?? records
+        records: update-csv records record-number block-record
+        
+        lines: copy []
+        forall records [
+            line-block: records/1
+            line: copy ""
+            forall line-block [
+                element: line-block/1
+                line: rejoin [line "," element]
+            ]
+            remove line
+            append lines line
+        ]
+        save-csv/header lines %db/inventory.csv csv-header
 
-        records: update-csv records record-number record  
-        records: head records
-
-        record1: records/1
-        record2: records/2
-        ?? records
-        ?? record1
-        ?? record2
     ]
     
 ]
