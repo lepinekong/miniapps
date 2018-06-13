@@ -31,10 +31,10 @@ header: [
         the-rate: field right 
         return
         Currency1: text react [face/data: record/Base-Currency]
-        q1: field right react [face/data: if ((not none? q2/data)) [round/to ((to-float q2/data) / (to-float either none? the-rate/data [1][the-rate/data])) 0.01]]
+        q1: field right react [face/data: if (not none? q2/data) [round/to ((to-float q2/data) / (to-float either none? the-rate/data [1][the-rate/data])) 0.01]]
         return
         Currency2: text react [face/data: record/Target-Currency]
-        q2: field right react [face/data: if ((not none? q1/data)) [round/to ((to-float q1/data) * (to-float either none? the-rate/data [1][the-rate/data]) 0.01]]
+        q2: field right react [face/data: if (not none? q1/data) [round/to ((to-float q1/data) * (to-float either none? the-rate/data [1][the-rate/data])) 0.01]]
     ]
 ]
 
