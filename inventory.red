@@ -4,6 +4,12 @@ Red [
 
 do read http://redlang.red/crud-csv.red
 
+if not exists? config-file: %config/inventory.config.red [
+
+
+
+]
+
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
     write data-file read http://miniapps.red/db/inventory.csv
