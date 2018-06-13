@@ -20,6 +20,8 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 
 ### Infos Apps
 
+- [do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)](./doc/eurusd/)
+                        
 - [do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)](./doc/weather/)
                         
 
