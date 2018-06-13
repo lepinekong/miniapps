@@ -54,7 +54,7 @@ You can change any field in any order, no need to validate, the others will upda
 
 ### Source Code:
 
-- [none](https://github.com/lepinekong/miniapps/blob/master/eurusd.red)
+- [https://github.com/lepinekong/miniapps/blob/master/eurusd.red](https://github.com/lepinekong/miniapps/blob/master/eurusd.red)
                         
 ![https://i.imgur.com/ASmQW7Y.png](https://i.imgur.com/ASmQW7Y.png)
                     
