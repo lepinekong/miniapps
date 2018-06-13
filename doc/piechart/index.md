@@ -32,13 +32,14 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 ```
 
 
-Then run and type in red console: 
+Then type in red console any of these commands: 
 
 
 ```
 
 
             do read http://miniapps.red/piechart.red
+            do read http://miniapps.red/piechart
 
         
 ```

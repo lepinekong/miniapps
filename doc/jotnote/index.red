@@ -42,7 +42,7 @@ Article: [
         .code: {
 New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClient).DownloadFile('https://static.red-lang.org/dl/win/red-063.exe','c:\red\red.exe');Start-Process -Filepath 'c:\red\red.exe'            
         }
-        .text: {Then run and type in red console any of these commands: }
+        .text: {Then type in red console any of these commands: }
         .code: {
 
             do read http://miniapps.red/jotnote.red

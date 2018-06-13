@@ -33,7 +33,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 ```
 
 
-Then run and type in red console any of these commands: 
+Then run type in red console any of these commands: 
 
 
 ```
