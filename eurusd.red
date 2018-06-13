@@ -2,10 +2,7 @@ Red [
     Title: "eurusd.red"
 ]
 
-
-records: copy [
-    ;["EUR" "USD" 1.17459]
-]
+records: copy [] ; ["EUR" "USD" (rate/rate)] 
 
 do read http://redlang.red/json
 rates: load-json read https://api.currex.info/json/latest/USD/
