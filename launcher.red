@@ -14,6 +14,9 @@ img-facebook: http://miniapps.red/images/facebook_128.png
 img-youtube: http://miniapps.red/images/youtube_128.png
 img-officeonline: http://miniapps.red/images/office365_128.png
 img-winword: http://miniapps.red/images/winword_128.png
+img-excel: http://miniapps.red/images/excel_128.png
+img-powerpoint: http://miniapps.red/images/powerpoint_128.png
+img-onenote: http://miniapps.red/images/onenote_128.png
 
 view layout compose [
 
@@ -57,22 +60,12 @@ view layout compose [
     ]
 
     return
-    Winword: cell (img-winword) [
-        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
-    ]
 
-    Excel: cell (img-winword) [
-        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
-    ]
+    Winword: cell (img-winword) 
 
-    Powerpoint: cell (img-winword) [
-        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
-    ]
-
-    Onenote: cell (img-winword) [
-        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
-    ]        
+cell "14" cell "15" cell "16"        
 
     return
+    
     cell "13" cell "14" cell "15" cell "16" 
 ]
