@@ -20,7 +20,7 @@ Red [
 
 
 cell-size: 128x128
-img-back: load http://miniapps.red/images/snapchat_128.png
+img-back: load http://miniapps.red/images/brain_128.png
 
 img-1: load http://miniapps.red/images/google_128.png
 img-2: load http://miniapps.red/images/twitter_128.png
@@ -39,9 +39,10 @@ img-14: load http://miniapps.red/images/excel_128.png
 img-15: load http://miniapps.red/images/powerpoint_128.png
 img-16: load http://miniapps.red/images/onenote_128.png
 
+i: 1
 view layout compose [
     title "Memory Game"
-    backdrop silver
+    backdrop black
     style cell: image (cell-size) (img-back) on-over [
         img: face/image
         either img = (img-back) [
@@ -52,7 +53,8 @@ view layout compose [
         ][
             face/image: (img-back)
         ]
-    ] 
+    ] extra 0 on-create [i: 1 + face/extra: i]
+
     cell "1" cell "2" cell "3" cell "4" return
     cell "5" cell "6" cell "7" cell "8" return
     cell "9" cell "10" cell "11" cell "12" return
