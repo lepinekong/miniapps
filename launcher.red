@@ -57,7 +57,22 @@ view layout compose [
     ]
 
     return
-    cell "9" cell "10" cell "11" cell "12" 
+    Winword: cell (img-winword) [
+        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    ]
+
+    Excel: cell (img-winword) [
+        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    ]
+
+    Powerpoint: cell (img-winword) [
+        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    ]
+
+    Onenote: cell (img-winword) [
+        call {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    ]        
+
     return
     cell "13" cell "14" cell "15" cell "16" 
 ]
