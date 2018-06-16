@@ -18,13 +18,6 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 
 
 
-### Infos Apps
-
-- [do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)](./doc/weather/)
-                        
-- [do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)](./doc/eurusd/)
-                        
-
 ### Productivity Apps
 
 - [do read http://miniaps.red/launcher ![https://i.imgur.com/eBnrBW5.png](https://i.imgur.com/eBnrBW5.png)](./doc/launcher/)
@@ -32,6 +25,13 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 - [do read http://miniapps.red/pomodoro ![https://i.imgur.com/uKb1Iyr.png](https://i.imgur.com/uKb1Iyr.png)](./doc/countdown/)
                         
 - [do read http://miniapps.red/note ![https://i.imgur.com/a4vpErj.png](https://i.imgur.com/a4vpErj.png)](./doc/jotnote/)
+                        
+
+### Infos Apps
+
+- [do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)](./doc/weather/)
+                        
+- [do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)](./doc/eurusd/)
                         
 
 ### Stats Apps

@@ -26,13 +26,6 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         
     ]    
     
-    Infos-Apps: [
-        .title: {Infos Apps} 
-        .links: [
-            {do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
-            {do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)} %./doc/eurusd/            
-        ]    
-    ]     
 
     Productivity-Apps: [
         .title: {Productivity Apps} 
@@ -45,6 +38,14 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
             %./doc/jotnote/
         ]    
     ]
+
+    Infos-Apps: [
+        .title: {Infos Apps} 
+        .links: [
+            {do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
+            {do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)} %./doc/eurusd/            
+        ]    
+    ]         
 
     Stats-Apps: [
         .title: {Stats Apps} 
