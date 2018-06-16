@@ -20,18 +20,37 @@ Red [
 
 
 cell-size: 128x128
-img1: load http://miniapps.red/images/snapchat_128.png
-img2: load http://miniapps.red/images/youtube_128.png
+img-back: load http://miniapps.red/images/snapchat_128.png
+
+img-1: load http://miniapps.red/images/google_128.png
+img-2: load http://miniapps.red/images/twitter_128.png
+img-3: load http://miniapps.red/images/facebook_128.png
+img-4: load http://miniapps.red/images/youtube_128.png
+img-5: load http://miniapps.red/images/winword_128.png
+img-6: load http://miniapps.red/images/excel_128.png
+img-7: load http://miniapps.red/images/powerpoint_128.png
+img-8: load http://miniapps.red/images/onenote_128.png
+img-9: load http://miniapps.red/images/google_128.png
+img-10: load http://miniapps.red/images/twitter_128.png
+img-11: load http://miniapps.red/images/facebook_128.png
+img-12: load http://miniapps.red/images/youtube_128.png
+img-13: load http://miniapps.red/images/winword_128.png
+img-14: load http://miniapps.red/images/excel_128.png
+img-15: load http://miniapps.red/images/powerpoint_128.png
+img-16: load http://miniapps.red/images/onenote_128.png
 
 view layout compose [
     title "Memory Game"
     backdrop silver
-    style cell: image (cell-size) (img1) on-over [
+    style cell: image (cell-size) (img-back) on-over [
         img: face/image
-        either img = (img1) [
-            face/image: (img2)
+        either img = (img-back) [
+            id: face/text
+            img-id: to-word rejoin ["img-" id]
+            ?? img-id
+            face/image: get img-id
         ][
-            face/image: (img1)
+            face/image: (img-back)
         ]
     ] 
     cell "1" cell "2" cell "3" cell "4" return
