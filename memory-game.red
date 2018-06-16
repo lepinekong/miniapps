@@ -20,8 +20,8 @@ Red [
 
 
 cell-size: 128x128
-img1: http://miniapps.red/images/snapchat_128.png
-img2: http://miniapps.red/images/youtube_128.png
+img1: load http://miniapps.red/images/snapchat_128.png
+img2: load http://miniapps.red/images/youtube_128.png
 
 view layout compose [
     title "Memory Game"
