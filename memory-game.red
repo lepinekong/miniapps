@@ -29,10 +29,10 @@ view layout compose [
     backdrop silver
     style cell: image (cell-size) (img1) on-over [
         img: face/image
-        either img = img1 [
-            face/image: img2
+        either img = (img1) [
+            face/image: (img2)
         ][
-            face/image: img1
+            face/image: (img1)
         ]
     ] 
     cell "1" cell "2" cell "3" cell "4" return
