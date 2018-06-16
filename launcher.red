@@ -7,7 +7,9 @@ cell-size: 128x128
 
 img-google: http://miniapps.red/images/google_128.png
 img-twitter: http://miniapps.red/images/twitter_128.png
+img-facebook: http://miniapps.red/images/facebook_128.png
 img-youtube: http://miniapps.red/images/youtube_128.png
+
 
 
 view layout compose [
@@ -23,12 +25,14 @@ view layout compose [
         browse http://twitter.com
     ]
 
+    facebook: cell (img-facebook) [
+        browse http://facebook.com
+    ]    
+
     youtube: cell (img-youtube) [
         browse http://youtube.com
     ]
 
-    
-    cell "4" 
     
     return
 
