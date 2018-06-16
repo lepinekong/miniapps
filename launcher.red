@@ -6,6 +6,7 @@ Red [
 cell-size: 128x128
 
 img-google: http://miniapps.red/images/google_128.png
+img-twitter: http://miniapps.red/images/twitter_128.png
 img-youtube: http://miniapps.red/images/youtube_128.png
 
 
@@ -18,10 +19,18 @@ view layout compose [
         browse http://google.com
     ]
 
+    twitter: cell (img-twitter) [
+        browse http://twitter.com
+    ]
+
     youtube: cell (img-youtube) [
         browse http://youtube.com
     ]
-    cell "3" cell "4" return
+
+    
+    cell "4" 
+    
+    return
 
     cell "5" cell "6" cell "7" cell "8" return
     cell "9" cell "10" cell "11" cell "12" return
