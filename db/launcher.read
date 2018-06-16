@@ -1,0 +1,82 @@
+Red [
+    Title: "Config for Launcher"
+    File: "launcher.read"
+    Description: {
+        Config data in ReAdABLE Human Format http://readablehumanformat.com
+    }
+]
+
+Config: [
+
+    Social-Websites: [
+
+        google: [
+            .icon: http://miniapps.red/images/google_128.png
+            .url: http://google.com
+        ]
+
+        twitter: [
+            .icon: http://miniapps.red/images/twitter_128.png
+            .url: http://twitter.com/lepinekong
+        ]
+
+        facebook: [
+            .icon: http://miniapps.red/images/facebook_128.png
+            .url: http://facebook.com
+        ]    
+
+        youtube: [
+            .icon: http://miniapps.red/images/youtube_128.png
+            .url: http://youtube.com
+        ]
+
+    ]
+
+    Office-Online: [
+
+        Word-Online: [
+            .icon: http://miniapps.red/images/office365_128.png
+            .url: https://office.live.com/start/Word.aspx
+        ]
+
+        Excel-Online: [
+            .icon: http://miniapps.red/images/office365_128.png
+            .url: https://office.live.com/start/Excel.aspx
+        ]
+
+        Powerpoint-Online: [
+            .icon: http://miniapps.red/images/office365_128.png
+            .url: https://office.live.com/start/PowerPoint.aspx
+        ]    
+
+        Onenote-Online: [
+            .icon: http://miniapps.red/images/office365_128.png
+            .url: https://www.onenote.com/notebooks
+        ]
+
+    ]
+
+    Office-Desktop: [
+
+        Word-Desktop: [
+            .icon: http://miniapps.red/images/winword_128.png
+            .url: https://office.live.com/start/Word.aspx
+        ]
+
+        Excel-Desktop: [
+            .icon: http://miniapps.red/images/excel_128.png
+            .url: https://office.live.com/start/Excel.aspx
+        ]
+
+        Powerpoint-Desktop: [
+            .icon: http://miniapps.red/images/powerpoint.png
+            .url: https://office.live.com/start/PowerPoint.aspx
+        ]    
+
+        Onenote-Desktop: [
+            .icon: http://miniapps.red/images/onenote.png
+            .url: https://www.onenote.com/notebooks
+        ]
+
+    ]    
+]

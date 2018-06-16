@@ -17,6 +17,7 @@ img-winword: http://miniapps.red/images/winword_128.png
 img-excel: http://miniapps.red/images/excel_128.png
 img-powerpoint: http://miniapps.red/images/powerpoint_128.png
 img-onenote: http://miniapps.red/images/onenote_128.png
+img-redlang: http://miniapps.red/images/redlang-400.png
 
 view layout compose [
 
@@ -61,11 +62,27 @@ view layout compose [
 
     return
 
-    Winword: cell (img-winword) 
+    Winword: cell (img-winword) [
+        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    ]
 
-cell "14" cell "15" cell "16"        
+    Excel: cell (img-excel) [
+        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE"}
+    ]
+
+    Powerpoint: cell (img-powerpoint) [
+        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\POWERPNT.EXE"}
+    ]
+
+    Onenote: cell (img-onenote) [
+        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\ONENOTE.EXE"}
+    ]     
 
     return
+
+    Weather: [
+
+    ]
     
     cell "13" cell "14" cell "15" cell "16" 
 ]
