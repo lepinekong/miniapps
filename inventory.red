@@ -4,23 +4,23 @@ Red [
 
 do read http://redlang.red/crud-csv.red
 
-either exists? config-file: %config/inventory.config.red [
-    do read config-file
-    ?? config
-][
-    make-dir %config
-    write config-file read http://miniapps.red/config/inventory.config.red
-    print rejoin ["Created " clean-path config-file]    
+CONFIG-DIR: %config
 
+if not exists? config-file: %config/inventory.config.red [
+    make-dir CONFIG-DIR
+    write config-file read http://miniapps.red/config/inventory.config.red
+    print rejoin ["Created " clean-path config-file]        
 ]
 
-if not exists? data-file: %db/inventory.csv [
+do read config-file
+devices: select config 'devices
+data-file: select devices '.path
+
+if not exists? data-file [
     make-dir %db
     write data-file read http://miniapps.red/db/inventory.csv
     print rejoin ["Created " clean-path data-file]
 ]
-
-
 
 lines: Read/lines data-file
 csv-header: first lines
