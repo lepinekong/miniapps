@@ -17,7 +17,7 @@ img-winword: http://miniapps.red/images/winword_128.png
 img-excel: http://miniapps.red/images/excel_128.png
 img-powerpoint: http://miniapps.red/images/powerpoint_128.png
 img-onenote: http://miniapps.red/images/onenote_128.png
-img-redlang: http://miniapps.red/images/redlang-400.png
+img-redlang: http://miniapps.red/images/redlang_128.png
 
 view layout compose [
 
@@ -80,9 +80,20 @@ view layout compose [
 
     return
 
-    Weather: [
-
+    Weather: cell (img-redlang) [
+        do read http://miniapps.red/weather
     ]
-    
-    cell "13" cell "14" cell "15" cell "16" 
+
+    Weather: cell (img-redlang) [
+        do read http://miniapps.red/weather
+    ]
+
+    Weather: cell (img-redlang) [
+        do read http://miniapps.red/weather
+    ]
+
+    Weather: cell (img-redlang) [
+        do read http://miniapps.red/weather
+    ]            
+
 ]
