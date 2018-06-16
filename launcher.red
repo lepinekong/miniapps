@@ -9,11 +9,12 @@ img-google: http://miniapps.red/images/google_128.png
 img-twitter: http://miniapps.red/images/twitter_128.png
 img-facebook: http://miniapps.red/images/facebook_128.png
 img-youtube: http://miniapps.red/images/youtube_128.png
-
+img-office365: http://miniapps.red/images/office365_128.png
 
 
 view layout compose [
-    title "Memory Game"
+
+    title "Launcher"
     backdrop gold
     style cell: image (cell-size)
 
@@ -22,7 +23,7 @@ view layout compose [
     ]
 
     twitter: cell (img-twitter) [
-        browse http://twitter.com
+        browse http://twitter.com/lepinekong
     ]
 
     facebook: cell (img-facebook) [
@@ -33,10 +34,15 @@ view layout compose [
         browse http://youtube.com
     ]
 
-    
     return
 
-    cell "5" cell "6" cell "7" cell "8" return
+    office365-Excel: cell "Excel" (img-office365) [
+        browse https://office.live.com/start/Excel.aspx
+    ]
+    cell "6" 
+    cell "7" 
+    cell "8" 
+    return
     cell "9" cell "10" cell "11" cell "12" return
     cell "13" cell "14" cell "15" cell "16" 
 ]
