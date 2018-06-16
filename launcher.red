@@ -21,7 +21,7 @@ view layout compose [
     youtube: cell (img-youtube) [
         browse http://youtube.com
     ]
-    cell "2" cell "3" cell "4" return
+    cell "3" cell "4" return
 
     cell "5" cell "6" cell "7" cell "8" return
     cell "9" cell "10" cell "11" cell "12" return
