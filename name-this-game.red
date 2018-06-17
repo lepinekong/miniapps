@@ -1,18 +1,13 @@
 Red [
-    Title: "memory-game.red"
+    Title: "name-this-game.red"
     Needs: 'View
-    Iteration: 0.0.1.1
+    Derived-from: [
+        %memory-game.red
+    ]    
+    Iteration: 0.0.0.1
     Purpose: {
-        FIX: *** Script Error: img-none has no value
-        set clicked of previous-face-clicked to true
-        to previous-face from flipping
     }
-    Code: {
-            if img-clicked = previous-image-clicked [
-                previous-face-clicked/image: img-clicked
-                previous-face-clicked/extra: update-readable previous-face-clicked/extra 'clicked true
-                exit
-            ]     
+    Code: {    
     }
     References: [
         https://www.packtpub.com/mapt/book/all_books/9781789130706/9/ch09lvl1sec79/a-faces-walkthrough
@@ -39,25 +34,6 @@ do read http://redlang.red/crud-readable.red
 
 cell-size: 128x128
 img-back: load http://miniapps.red/images/brain_128.png
-
-icons-list: [
-    %google_128.png
-    %twitter_128.png
-    %facebook_128.png
-    %youtube_128.png
-    %winword_128.png
-    %excel_128.png
-    %powerpoint_128.png
-    %onenote_128.png
-    %google_128.png
-    %twitter_128.png
-    %facebook_128.png
-    %youtube_128.png
-    %winword_128.png
-    %excel_128.png
-    %powerpoint_128.png
-    %onenote_128.png
-]
 
 img-1: load http://miniapps.red/images/google_128.png
 img-2: load http://miniapps.red/images/twitter_128.png
