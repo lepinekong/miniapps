@@ -35,6 +35,7 @@ Red [
     ]
 ]
 
+do read http://redlang.red/range
 do read http://redlang.red/crud-readable.red
 
 cell-size: 128x128
@@ -59,6 +60,8 @@ icons-list: [
     %onenote_128.png
 ]
 
+base-url: http://miniapps.red/images/
+
 img-1: load http://miniapps.red/images/google_128.png
 img-2: load http://miniapps.red/images/twitter_128.png
 img-3: load http://miniapps.red/images/facebook_128.png
@@ -78,7 +81,7 @@ img-16: load http://miniapps.red/images/onenote_128.png
 
 i: 1
 random/seed now
-shuffled-img: random [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
+shuffled-img: random .range 1 16
 
 previous-image-clicked: none
 img-clicked: none
