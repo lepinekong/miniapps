@@ -41,26 +41,14 @@ do read http://redlang.red/crud-readable.red
 cell-size: 128x128
 img-back: load http://miniapps.red/images/brain_128.png
 
-icons-list: [
-    %google_128.png
-    %twitter_128.png
-    %facebook_128.png
-    %youtube_128.png
-    %winword_128.png
-    %excel_128.png
-    %powerpoint_128.png
-    %onenote_128.png
-    %google_128.png
-    %twitter_128.png
-    %facebook_128.png
-    %youtube_128.png
-    %winword_128.png
-    %excel_128.png
-    %powerpoint_128.png
-    %onenote_128.png
-]
+base-img-url: http://miniapps.red/images/
 
-base-url: http://miniapps.red/images/
+icons-list: [
+    %google_128.png %twitter_128.png %facebook_128.png %youtube_128.png
+    %winword_128.png %excel_128.png %powerpoint_128.png %onenote_128.png
+    %google_128.png %twitter_128.png %facebook_128.png %youtube_128.png
+    %winword_128.png %excel_128.png %powerpoint_128.png %onenote_128.png
+]
 
 img-1: load http://miniapps.red/images/google_128.png
 img-2: load http://miniapps.red/images/twitter_128.png
