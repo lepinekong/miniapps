@@ -94,7 +94,7 @@ face-clicked: none
 
 view layout compose [
     title "Memory Game"
-    backdrop black
+    backdrop white
     style cell: image (cell-size) (img-back) on-over [
         clicked: select face/extra 'clicked
         if clicked = true [
@@ -132,8 +132,21 @@ view layout compose [
         append face/extra compose [(to-set-word "clicked") false]
     ]
 
-    cell cell cell cell return
-    cell cell cell cell return
-    cell cell cell cell return
-    cell cell cell cell 
+    panel [
+        cell cell cell cell return
+        cell cell cell cell return
+        cell cell cell cell return
+        cell cell cell cell 
+    ]
+    return
+    panel 400x40 [
+        button "Play" [
+            Play-Status: true
+        ]
+    ] 
+
+    do [
+        Play-Status: False
+    ]
+
 ]
