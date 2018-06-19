@@ -1,10 +1,10 @@
 apps-list: [
 
-    Lucinda: cell (img-google) [
+    google: cell (img-google) [
         browse http://google.com
     ]
 
-    Theodore: cell (img-twitter) [
+    twitter: cell (img-twitter) [
         browse http://twitter.com/lepinekong
     ]
 
