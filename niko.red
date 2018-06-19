@@ -3,7 +3,7 @@ Red [
 ]
 
 if not exists? team-list-file: %config/niko/team-list.red [
-    make-dir %config
+    make-dir/deep %config/niko
     write team-list-file read http://miniapps.red/config/niko/team-list.red
 ]
 
