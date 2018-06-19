@@ -1,73 +1,92 @@
-apps-list: [
+team-list: [
 
-    google: cell (img-google) [
+    sprint: Sprint "Sprint 33" [
         browse http://google.com
     ]
 
-    twitter: cell (img-twitter) [
+    Mon: Day "Mon" [
         browse http://twitter.com/lepinekong
     ]
 
-    facebook: cell (img-facebook) [
+    Tue: Day "Tue" [
         browse http://facebook.com
     ]    
 
-    youtube: cell (img-youtube) [
+    Wed: Day "Wed" [
         browse http://youtube.com
     ]
 
-    return
-
-    officeonline-Word: cell-with-caption (img-officeonline) font-color blue "Word" [
-        browse https://office.live.com/start/Word.aspx
+    Thur: Day "Wed" [
+        browse http://youtube.com
     ]
 
-    officeonline-Excel: cell-with-caption (img-officeonline) font-color leaf "Excel" [
-        browse https://office.live.com/start/Excel.aspx
+    Thur: Day "Fri" [
+        browse http://youtube.com
     ]
 
-    officeonline-Powerpoint: cell-with-caption (img-officeonline) font-color maroon "Powerpoint" [
-        browse https://office.live.com/start/PowerPoint.aspx
+    Mon: Day "Mon" [
+        browse http://twitter.com/lepinekong
     ]
 
-    officeonline-Onenote: cell-with-caption (img-officeonline) font-color purple "Onenote" [
-        browse https://www.onenote.com/notebooks
+    Tue: Day "Tue" [
+        browse http://facebook.com
+    ]    
+
+    Wed: Day "Wed" [
+        browse http://youtube.com
     ]
 
-    return
-
-    Winword: cell (img-winword) [
-        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE"}
+    Thur: Day "Wed" [
+        browse http://youtube.com
     ]
 
-    Excel: cell (img-excel) [
-        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\EXCEL.EXE"}
-    ]
-
-    Powerpoint: cell (img-powerpoint) [
-        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\POWERPNT.EXE"}
-    ]
-
-    Onenote: cell (img-onenote) [
-        call/shell {"C:\Program Files (x86)\Microsoft Office\Office12\ONENOTE.EXE"}
-    ]     
+    Fri: Day "Fri" [
+        browse http://youtube.com
+    ]   
 
     return
 
-    Pomodoro: cell-with-caption (img-redlang) font-color white "Pomodoro" [
-        do read http://miniapps.red/pomodoro
+    member: Member "Lucinda" [
+        browse http://google.com
     ]
 
-    Note: cell-with-caption (img-redlang) font-color white "Note" [
-        do read http://miniapps.red/note
-    ]            
-
-    Weather: cell-with-caption (img-redlang) font-color white "Weather" [
-        do read http://miniapps.red/weather
+    Mon: Mood [
+        browse http://twitter.com/lepinekong
     ]
 
-    EURUSD: cell-with-caption (img-redlang) font-color white "EUR/USD" [
-        do read http://miniapps.red/eurusd
+    Tue: Mood [
+        browse http://facebook.com
+    ]    
+
+    Wed: Mood [
+        browse http://youtube.com
     ]
 
+    Thur: Mood [
+        browse http://youtube.com
+    ]
+
+    Thur: Mood [
+        browse http://youtube.com
+    ]
+
+    Mon: Mood [
+        browse http://twitter.com/lepinekong
+    ]
+
+    Tue: Mood [
+        browse http://facebook.com
+    ]    
+
+    Wed: Mood [
+        browse http://youtube.com
+    ]
+
+    Thur: Mood [
+        browse http://youtube.com
+    ]
+
+    Fri: Mood [
+        browse http://youtube.com
+    ]   
 ]

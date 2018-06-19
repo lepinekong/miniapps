@@ -9,17 +9,21 @@ if not exists? team-list-file: %config/niko/team-list.red [
 
 do read team-list-file
 
-if not exists? team-icons-list-file: %config/niko/team-icons-list.red [
+if not exists? team-icons-list-file: %config/niko/icons-list.red [
     make-dir %config
-    write team-icons-list-file read http://miniapps.red/config/niko/team-icons-list.red
+    write team-icons-list-file read http://miniapps.red/config/niko/icons-list.red
 ]
 
 do read team-icons-list-file
 
 win: copy [
-    title "niko"
-    backdrop gold
+    title "niko calendar"
+    backdrop white
     style cell: image (cell-size)
+    style Sprint: image 200x20 font-name "arial" font-size 12
+    style Day: image 50x20 font-name "arial" font-size 12   
+    style Member: image 200x20 font-name "arial" font-size 12    
+    style Mood: image 50x50      
     style cell-with-caption: cell font-name "algerian" font-size 14    
 ]
 
