@@ -18,24 +18,25 @@ do read team-icons-list-file
 
 win: copy [
     title "niko calendar"
-    backdrop white
-    style cell: image (cell-size)
+    backdrop black
     style Sprint: image 200x20 font-name "arial" font-size 12
     style Day: image 50x20 font-name "arial" font-size 12   
     style Member: image 200x20 font-name "arial" font-size 12    
-    style Mood: image 50x50      
-    style cell-with-caption: cell font-name "algerian" font-size 14    
+    style Mood: image (icon-size)
+    style Happy: Mood (happy)  
+    style Angry: Mood (angry) 
+    style Neutral: Mood (test)            
 ]
 
 append win team-list
 
 print rejoin [
-    "You can customize the apps list in " 
+    "You can customize the team list in " 
     {"}
     to-local-file clean-path team-list-file
     {"}
     newline
-    "You can customize the apps icons list in " 
+    "You can customize the mood icons in " 
     {"}
     to-local-file clean-path team-icons-list-file
     {"}    

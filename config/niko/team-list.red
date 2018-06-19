@@ -50,11 +50,11 @@ team-list: [
         browse http://google.com
     ]
 
-    Mon: Mood [
+    Mon: Happy [
         browse http://twitter.com/lepinekong
     ]
 
-    Tue: Mood [
+    Tue: Happy [
         browse http://facebook.com
     ]    
 
