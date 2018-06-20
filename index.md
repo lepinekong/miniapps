@@ -39,7 +39,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 - [do read http://miniapps.red/piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)](./doc/piechart/)
                         
 
-### Project/Team/Product Management Apps
+### Project Management Apps
 
 - [do read http://miniapps.red/niko ![free opensource niko calendar app](https://i.imgur.com/xHytZuR.png)](./doc/niko/)
                         

@@ -57,7 +57,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 
 
     Project-Management: [
-        .title: {Project/Team/Product Management Apps}
+        .title: {Project Management Apps}
         .links: [
             {do read http://miniapps.red/niko ![free opensource niko calendar app](https://i.imgur.com/xHytZuR.png)} %./doc/niko/            
         ]         
