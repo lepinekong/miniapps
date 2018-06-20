@@ -26,7 +26,6 @@ Article: [
         .text: {
             - Download [red-lang](https://www.red-lang.org/p/download.html) on [red-lang.org](https://www.red-lang.org) (only 1 Mb)
             - Or paste this oneliner in [powershell](http://www.powertheshell.com/topic/learnpowershell/firststeps/console/):
-
         }
         .code: {
 New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClient).DownloadFile('https://static.red-lang.org/dl/win/red-063.exe','c:\red\red.exe');Start-Process -Filepath 'c:\red\red.exe'            
@@ -37,8 +36,6 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
             do read http://miniapps.red/<%short-filename-without-extension%>.red
             do read http://miniapps.red/<%short-filename-without-extension%>           
         }
-        
-
     ]
 
     Usage: [

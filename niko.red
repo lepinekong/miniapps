@@ -82,7 +82,7 @@ win: copy [
 
 forall day-columns [
     append win compose/deep [
-        (to-set-word day-columns/1) Day (to-string day-columns/1)
+        (to-set-word day-columns/1) Day (to-string day-columns/1) ; ex: Mon: Day "Mon"
     ]
 ]
 append win 'return
