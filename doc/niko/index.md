@@ -49,7 +49,7 @@ A sample data file will be downloaded in
 ![https://i.imgur.com/aF4kcw8.png](https://i.imgur.com/aF4kcw8.png)
                     
 
-You can then records your own data in it and re-execute the app by typing again:
+You can then record your own data in it and re-execute the app by typing again:
 
 
 
