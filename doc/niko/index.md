@@ -1,76 +1,82 @@
-Red [
-    Title: "niko.red"
-]
 
-Article: [
+# niko calendar: Agile team's moods
 
-    Title: {niko calendar: Agile team's moods}
 
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://miniapps.red/doc/eniko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
-        }
-        .Published-Urls: [
-            http://miniapps.red/niko.red 
-            http://miniapps.red/niko        
-        ]
-    ]  
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-    Screen-copies: [
-        .image: https://i.imgur.com/xHytZuR.png
-    ]         
-    
-    Pre-Requisites: [
+[http://miniapps.red/doc/eniko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
 
-        .title: {Pre-requisites}
-        .text: {
-            - Download [red-lang](https://www.red-lang.org/p/download.html) on [red-lang.org](https://www.red-lang.org) (only 1 Mb)
-            - Or paste this oneliner in [powershell](http://www.powertheshell.com/topic/learnpowershell/firststeps/console/):
+![https://i.imgur.com/xHytZuR.png](https://i.imgur.com/xHytZuR.png)
+                    
 
-        }
-        .code: {
+### Pre-requisites
+
+
+- Download [red-lang](https://www.red-lang.org/p/download.html) on [red-lang.org](https://www.red-lang.org) (only 1 Mb)
+- Or paste this oneliner in [powershell](http://www.powertheshell.com/topic/learnpowershell/firststeps/console/):
+
+
+
+
+```
+
 New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClient).DownloadFile('https://static.red-lang.org/dl/win/red-063.exe','c:\red\red.exe');Start-Process -Filepath 'c:\red\red.exe'            
-        }
-    ]
+        
+```
 
-    Usage: [
 
-        .title: {Usage}
-        .text: {Type in red console any of these commands: }
-        .code: {
+
+### Usage
+
+Type in red console any of these commands: 
+
+
+```
+
             do read http://miniapps.red/niko.red
             do read http://miniapps.red/niko           
-        }        
-        .text: {A sample data file will be downloaded in
-        %db\niko\niko.data.red as reminded in console:
-        }
-        .image: https://i.imgur.com/abwnWGL.png
-        .links: [
-            {View data sample online} https://github.com/lepinekong/miniapps/blob/master/db/niko/niko.data.red
-        ]
-        .image: https://i.imgur.com/aF4kcw8.png
-        .text: {
-            You can then records your own data in it and re-execute the app by typing again:
-        }
-        .code: {do read http://miniapps.red/niko}      
-    ] 
+        
+```
 
-    Config: [
-        .title: {(Optional) Change icons and day columns}
-        .text: {You can optionally change icons and day columns in %config\niko\niko.config.red:}
-        .links: [
-            {View default config online} https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red
-        ]
-        .image: https://i.imgur.com/qM5jjeP.png        
-    ] 
 
-    Source-Code: [
-        .title: {Source Code}
-        .links: [
-            https://github.com/lepinekong/miniapps/blob/master/niko.red
-        ]
-        .image: https://i.imgur.com/tydgakB.png
-        .code/red: {
+A sample data file will be downloaded in
+%db\niko\niko.data.red as reminded in console:
+
+![https://i.imgur.com/abwnWGL.png](https://i.imgur.com/abwnWGL.png)
+                    
+- [View data sample online](https://github.com/lepinekong/miniapps/blob/master/db/niko/niko.data.red)
+                        
+![https://i.imgur.com/aF4kcw8.png](https://i.imgur.com/aF4kcw8.png)
+                    
+
+You can then records your own data in it and re-execute the app by typing again:
+
+
+
+```
+do read http://miniapps.red/niko
+```
+
+
+
+### (Optional) Change icons and day columns
+
+You can optionally change icons and day columns in %config\niko\niko.config.red:
+- [View default config online](https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red)
+                        
+![https://i.imgur.com/qM5jjeP.png](https://i.imgur.com/qM5jjeP.png)
+                    
+
+### Source Code
+
+- [https://github.com/lepinekong/miniapps/blob/master/niko.red](https://github.com/lepinekong/miniapps/blob/master/niko.red)
+                        
+![https://i.imgur.com/tydgakB.png](https://i.imgur.com/tydgakB.png)
+                    
+
+
+```red
+
 Red [
     Title: "niko calendar"
     Build: 0.0.0.3
@@ -189,9 +195,7 @@ niko
 ;     base red 30x30 
 ;     at 30x0 panel [size 50x50 at 0x-20 image h]
 ; ]            
-        }
-    ]  
-]
+        
+```
 
-do read http://readablehumanformat.com/lib.red
-markdown-gen 
+

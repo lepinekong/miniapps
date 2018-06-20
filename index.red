@@ -45,10 +45,17 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
             {do read http://miniapps.red/eurusd ![https://i.imgur.com/HZucmAf.png](https://i.imgur.com/HZucmAf.png)} %./doc/eurusd/            
             {do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
         ]    
-    ]         
+    ]   
 
-    Stats-Apps: [
-        .title: {Stats Apps} 
+    Project-Management: [
+        .title: {Project/Team/Product Management Apps}
+        .links: [
+            {do read http://miniapps.red/niko ![free opensource niko calendar app](https://i.imgur.com/xHytZuR.png)} %./doc/niko/            
+        ]         
+    ]      
+
+    Business-Apps: [
+        .title: {Business Apps} 
         .links: [
             {do read http://miniapps.red/piechart ![https://i.imgur.com/aIWrtIo.png](https://i.imgur.com/aIWrtIo.png)} %./doc/piechart/
         ]    
