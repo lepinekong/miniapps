@@ -52,7 +52,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         ]
         .image: https://i.imgur.com/aF4kcw8.png
         .text: {
-            You can then record your own data in it and re-execute the app by typing again:
+            You can then record your own data, close the app and retype again:
         }
         .code: {do read http://miniapps.red/niko}      
     ] 
