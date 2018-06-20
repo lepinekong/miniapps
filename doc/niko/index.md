@@ -40,7 +40,7 @@ Type in red console any of these commands:
 
 
 A sample data file will be downloaded in
-%db\niko\niko.data.red as reminded in console:
+**db\niko\niko.data.red** as reminded in console:
 
 ![https://i.imgur.com/abwnWGL.png](https://i.imgur.com/abwnWGL.png)
                     
@@ -61,7 +61,7 @@ do read http://miniapps.red/niko
 
 ### (Optional) Change icons and day columns
 
-You can optionally change icons and day columns in %config\niko\niko.config.red:
+You can optionally change icons and day columns in **config\niko\niko.config.red**:
 - [View default config online](https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red)
                         
 ![https://i.imgur.com/t0sL5sO.png](https://i.imgur.com/t0sL5sO.png)

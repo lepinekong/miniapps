@@ -44,7 +44,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
             do read http://miniapps.red/niko           
         }        
         .text: {A sample data file will be downloaded in
-        %db\niko\niko.data.red as reminded in console:
+        **db\niko\niko.data.red** as reminded in console:
         }
         .image: https://i.imgur.com/abwnWGL.png
         .links: [
@@ -59,7 +59,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
 
     Config: [
         .title: {(Optional) Change icons and day columns}
-        .text: {You can optionally change icons and day columns in %config\niko\niko.config.red:}
+        .text: {You can optionally change icons and day columns in **config\niko\niko.config.red**:}
         .links: [
             {View default config online} https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red
         ]
