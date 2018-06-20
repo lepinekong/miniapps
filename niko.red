@@ -20,7 +20,7 @@ if not exists? team-icons-list-file: %config/niko/icons-list.red [
 do read team-icons-list-file
 
 win: copy [
-    title "niko calendar"
+    title "niko calendar: Agile team's moods"
     backdrop gray
     style Sprint: image 200x48 font-name "arial" font-size 12
     style Day: image 48x48 font-name "arial" font-size 12   
@@ -44,7 +44,7 @@ win: copy [
     return             
 ]
 
-append win team-list
+append win niko-calendar
 
 print rejoin [
     "You can customize the team list in " 

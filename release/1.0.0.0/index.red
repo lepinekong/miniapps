@@ -7,7 +7,7 @@ Source: [
 .text: {[http://miniapps.red/index.red](https://github.com/lepinekong/miniapps/blob/master/index.red)
 }
 .Published-Url: http://miniapps.red/index
-]
+            ]
             
 Article: [
 
