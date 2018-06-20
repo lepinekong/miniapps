@@ -8,7 +8,7 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://miniapps.red/doc/eniko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
+        .text: {[http://miniapps.red/doc/niko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
         }
         .Published-Urls: [
             http://miniapps.red/niko.red 

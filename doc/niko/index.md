@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://miniapps.red/doc/eniko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
+[http://miniapps.red/doc/niko/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/niko/index.red)
 
 ![https://i.imgur.com/xHytZuR.png](https://i.imgur.com/xHytZuR.png)
                     
