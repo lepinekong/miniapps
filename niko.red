@@ -1,5 +1,8 @@
 Red [
     Title: "niko calendar"
+    References: [
+        https://www.agilealliance.org/glossary/nikoniko/
+    ]
 ]
 
 if not exists? team-list-file: %config/niko/team-list.red [
@@ -18,14 +21,27 @@ do read team-icons-list-file
 
 win: copy [
     title "niko calendar"
-    backdrop black
-    style Sprint: image 200x20 font-name "arial" font-size 12
-    style Day: image 50x20 font-name "arial" font-size 12   
-    style Member: image 200x20 font-name "arial" font-size 12    
-    style Mood: image (icon-size)
+    backdrop gray
+    style Sprint: image 200x48 font-name "arial" font-size 12
+    style Day: image 48x48 font-name "arial" font-size 12   
+    style Member: image 200x48 font-name "arial" font-size 12    
+    style Mood: image 48x48
     style Happy: Mood (happy)  
     style Angry: Mood (angry) 
-    style Neutral: Mood (test)            
+    style Neutral: Mood (neutral)   
+
+    Sprint (rejoin ["Sprint " Sprint])
+    Mon: Day "Mon"
+    Tue: Day "Tue"
+    Wed: Day "Wed"
+    Thur: Day "Wed"
+    Thur: Day "Fri"
+    Mon: Day "Mon"
+    Tue: Day "Tue"  
+    Wed: Day "Wed"
+    Thur: Day "Wed"
+    Fri: Day "Fri"
+    return             
 ]
 
 append win team-list

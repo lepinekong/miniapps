@@ -1,92 +1,27 @@
+Sprint: 33
+
 team-list: [
-
-    sprint: Sprint "Sprint 33" [
-        browse http://google.com
-    ]
-
-    Mon: Day "Mon" [
-        browse http://twitter.com/lepinekong
-    ]
-
-    Tue: Day "Tue" [
-        browse http://facebook.com
-    ]    
-
-    Wed: Day "Wed" [
-        browse http://youtube.com
-    ]
-
-    Thur: Day "Wed" [
-        browse http://youtube.com
-    ]
-
-    Thur: Day "Fri" [
-        browse http://youtube.com
-    ]
-
-    Mon: Day "Mon" [
-        browse http://twitter.com/lepinekong
-    ]
-
-    Tue: Day "Tue" [
-        browse http://facebook.com
-    ]    
-
-    Wed: Day "Wed" [
-        browse http://youtube.com
-    ]
-
-    Thur: Day "Wed" [
-        browse http://youtube.com
-    ]
-
-    Fri: Day "Fri" [
-        browse http://youtube.com
-    ]   
-
+    member: Member "Lucinda"
+    Mon: Happy
+    Tue: Happy
+    Wed: Happy
+    Thur: Neutral
+    Thur: Neutral
+    Mon: Happy
+    Tue: Happy
+    Wed: Neutral
+    Mon: Happy
+    Tue: Happy
     return
-
-    member: Member "Lucinda" [
-        browse http://google.com
-    ]
-
-    Mon: Happy [
-        browse http://twitter.com/lepinekong
-    ]
-
-    Tue: Happy [
-        browse http://facebook.com
-    ]    
-
-    Wed: Mood [
-        browse http://youtube.com
-    ]
-
-    Thur: Mood [
-        browse http://youtube.com
-    ]
-
-    Thur: Mood [
-        browse http://youtube.com
-    ]
-
-    Mon: Mood [
-        browse http://twitter.com/lepinekong
-    ]
-
-    Tue: Mood [
-        browse http://facebook.com
-    ]    
-
-    Wed: Mood [
-        browse http://youtube.com
-    ]
-
-    Thur: Mood [
-        browse http://youtube.com
-    ]
-
-    Fri: Mood [
-        browse http://youtube.com
-    ]   
+    member: Member "Theodore"
+    Mon: Angry
+    Tue: Neutral
+    Wed: Angry
+    Thur: Angry
+    Thur: Angry
+    Mon: Neutral
+    Tue: Happy
+    Wed: Neutral
+    Thur: Angry
+    Fri: Neutral  
 ]
