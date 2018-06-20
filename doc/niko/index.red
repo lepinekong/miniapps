@@ -185,12 +185,7 @@ niko-calendar: :.niko-app
 agile-mood: :.niko-app
 
 niko
-
-; h: happy
-; view/tight [
-;     base red 30x30 
-;     at 30x0 panel [size 50x50 at 0x-20 image h]
-; ]            
+           
         }
     ]  
 ]
