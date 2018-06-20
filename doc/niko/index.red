@@ -63,7 +63,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .links: [
             {View default config online} https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red
         ]
-        .image: https://i.imgur.com/qM5jjeP.png        
+        .image: https://i.imgur.com/t0sL5sO.png       
     ] 
 
     Source-Code: [
@@ -185,7 +185,7 @@ niko-calendar: :.niko-app
 agile-mood: :.niko-app
 
 niko
-           
+
         }
     ]  
 ]

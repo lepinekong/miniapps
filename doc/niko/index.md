@@ -64,7 +64,7 @@ do read http://miniapps.red/niko
 You can optionally change icons and day columns in %config\niko\niko.config.red:
 - [View default config online](https://github.com/lepinekong/miniapps/blob/master/config/niko/niko.config.red)
                         
-![https://i.imgur.com/qM5jjeP.png](https://i.imgur.com/qM5jjeP.png)
+![https://i.imgur.com/t0sL5sO.png](https://i.imgur.com/t0sL5sO.png)
                     
 
 ### Source Code
@@ -189,7 +189,7 @@ niko-calendar: :.niko-app
 agile-mood: :.niko-app
 
 niko
-           
+
         
 ```
 

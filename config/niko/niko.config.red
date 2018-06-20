@@ -17,7 +17,7 @@ day-columns: [
     "Wed"
     "Thu"
     "Fri" 
-    ;---- you can add some more by uncommenting below ----
+    ;---- you can add some more by un-commenting below ----
     ; "Mon"
     ; "Tue"
     ; "Wed"
@@ -29,3 +29,5 @@ day-columns: [
     ; "Thu"
     ; "Fri"    
 ]
+
+
