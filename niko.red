@@ -66,7 +66,7 @@ win: copy [
     style Neutral: Mood (img-neutral)  
 
     Sprint (rejoin ["Sprint " Sprint])
-    ; configured in niko.config:
+    ; configured in %config/niko/niko.config:
     ; Mon: Day "Mon"
     ; Tue: Day "Tue"
     ; Wed: Day "Wed"
