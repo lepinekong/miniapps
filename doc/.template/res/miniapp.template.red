@@ -8,8 +8,7 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://miniapps.red/doc/e<%short-filename-without-extension%>/index.red](https://github.com/lepinekong/miniapps/blob/master/doc/<%short-filename-without-extension%>/index.red)
-        }
+        .quote: [http://miniapps.red/doc/<%short-filename-without-extension%>/index.red https://github.com/lepinekong/miniapps/blob/master/doc/<%short-filename-without-extension%>/index.red]
         .Published-Urls: [
             http://miniapps.red/<%short-filename-without-extension%>.red 
             http://miniapps.red/<%short-filename-without-extension%>        
