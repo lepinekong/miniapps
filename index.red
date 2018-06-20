@@ -46,13 +46,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
             {do read http://miniapps.red/weather ![https://i.imgur.com/FZ3BTKy.png](https://i.imgur.com/FZ3BTKy.png)} %./doc/weather/
         ]    
     ]   
-
-    Project-Management: [
-        .title: {Project/Team/Product Management Apps}
-        .links: [
-            {do read http://miniapps.red/niko ![free opensource niko calendar app](https://i.imgur.com/xHytZuR.png)} %./doc/niko/            
-        ]         
-    ]      
+ 
 
     Business-Apps: [
         .title: {Business Apps} 
@@ -61,6 +55,13 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         ]    
     ]
 
+
+    Project-Management: [
+        .title: {Project/Team/Product Management Apps}
+        .links: [
+            {do read http://miniapps.red/niko ![free opensource niko calendar app](https://i.imgur.com/xHytZuR.png)} %./doc/niko/            
+        ]         
+    ]     
 
 ]
         
