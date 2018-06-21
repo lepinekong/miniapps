@@ -104,9 +104,9 @@ win: compose/deep [
         fill-pen (dark-blue) 
         box 512x418 732x578 
 
-        fill-pen radial (150.122.189) (84.162.253)
+        ;fill-pen radial (150.122.189) (84.162.253)
         ;I want center at 511x417 but this doesn't work
-        ;fill-pen radial (150.122.189) (84.162.253) 0 511x417
+        fill-pen linear (84.162.253) (150.122.189)
         box 287x418 512x578                 
 
         ;----------------------------------------------
@@ -114,6 +114,15 @@ win: compose/deep [
         line-width 2
         line 227x418 793x418
         line 512x258 512x578
+        ;----------------------------------------------
+
+        fill-pen linear (150.122.189) (84.162.253) 
+        pen off
+        circle 511x420 50
+
+        fill-pen (black) ; what's the matter:
+        circle 511x420 47 ; can't see this circle ?
+
         ;----------------------------------------------
         pen white 
         
