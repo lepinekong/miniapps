@@ -4,7 +4,13 @@ Red [
 
 Article: [
 
-    Title: {niko calendar: Agile team's moods}
+    Title: {Niko-niko calendar: Agile team's moods}
+
+    .text: {In japanese, NIKO NIKO means « smile ».}
+
+    References: [
+        https://www.agilealliance.org/glossary/nikoniko/
+    ]
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
@@ -74,16 +80,7 @@ New-Item -ItemType Directory -Force -Path C:\red;(New-Object System.Net.WebClien
         .image: https://i.imgur.com/tydgakB.png
         .code/red: {
 Red [
-    Title: "niko calendar"
-    Build: 0.0.0.3
-    History: [
-        0.0.0.1 {Initial version}
-        0.0.0.2 {BEFORE day-columns}
-        0.0.0.3 {day-columns}
-    ]
-    References: [
-        https://www.agilealliance.org/glossary/nikoniko/
-    ]
+    Title: "Niko-niko calendar"
 ]
 
 if not exists? config-file: %config/niko/niko.config.red [
@@ -141,7 +138,7 @@ win: copy [
     style Neutral: Mood (img-neutral)  
 
     Sprint (rejoin ["Sprint " Sprint])
-    ; configured in niko.config:
+    ; configured in %config/niko/niko.config:
     ; Mon: Day "Mon"
     ; Tue: Day "Tue"
     ; Wed: Day "Wed"
@@ -157,7 +154,7 @@ win: copy [
 
 forall day-columns [
     append win compose/deep [
-        (to-set-word day-columns/1) Day (to-string day-columns/1)
+        (to-set-word day-columns/1) Day (to-string day-columns/1) ; ex: Mon: Day "Mon"
     ]
 ]
 append win 'return
