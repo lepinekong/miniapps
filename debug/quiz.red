@@ -77,7 +77,7 @@ win: compose/deep [
 
         fill-pen (darker-blue) 
         box 227x258 287x418
-        text 245x320 "A"
+        text 248x320 "A"
 
         fill-pen (darker-blue) 
         box 732x258 793x418 
@@ -89,7 +89,7 @@ win: compose/deep [
 
         fill-pen (blue-highlight)
         box 227x418 287x578
-        text 245x480 "D"        
+        text 248x480 "D"        
 
         ;----------------------------------------------
         ; Inner Rectangles
@@ -106,7 +106,8 @@ win: compose/deep [
 
         ;fill-pen radial (150.122.189) (84.162.253)
         ;I want center at 511x417 but this doesn't work
-        fill-pen linear (84.162.253) (150.122.189)
+        ;fill-pen linear (84.162.253) (150.122.189)
+        pen off fill-pen linear 150.122.189 84.162.253 200x0 -50x165
         box 287x418 512x578                 
 
         ;----------------------------------------------
