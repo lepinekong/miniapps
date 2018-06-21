@@ -9,7 +9,7 @@ Red [
     Build: 0.0.0.2
     History: [
         0.0.0.1 {Initial version}
-        0.0.0.2 {P: Adding Answers Panel}
+        0.0.0.2 {D: Adding Answers Panel}
     ]
     References: [
         https://twitter.com/Jamal7x7Jamal/status/1008269417124331520
@@ -27,9 +27,11 @@ font-title: make font! [ name: "Arial" ]
 Quiz-title: "Quiz on Programming"
 font-quiz-title: make font! [ name: "Arial" ]
 
-Question: "What is Red?"
+Question: "What is the size of Red?"
+font-question-label: make font! [ name: "Arial" size: 13 color: white]
 
 font-letter: make font! [ name: "Arial" size: 18]
+font-answer: make font! [ name: "Arial" size: 18 color: white]
 
 darkest-blue: 1.23.64
 lightest-blue: 104.172.248
@@ -134,10 +136,71 @@ win: compose/deep [
         text 400x70 (Quiz-title)
 
         font font-quiz-title
-        text 440x187 (Question)
+        text 380x190 (Question)
 
         ;----------------------------------------------
     ]
+
+    ; Question 
+    ;box 286x148 792x258
+    at 286x148 panel [
+        backdrop (dark-blue) 
+        size 95x30
+        at 15x5 
+        text font (font-question-label) 
+        {Question} 
+        [print "question hint"] extra "hint"
+    ]
+
+    ; Answer A
+        at 288x258 
+        panel 185x125 [
+        backdrop (dark-blue) 
+        size 185x125
+        at 10x60
+        text font (font-answer) wrap
+        { > 500 Mb} 
+        extra true
+        [print "Answer A"]         
+    ]
+
+    ; Answer B
+        ;box 512x258 732x418  
+        at 543x258 
+        panel 185x125 [
+        backdrop (dark-blue) 
+        size 185x125
+        at 10x60
+        text font (font-answer) wrap
+        { > 100 Mb} 
+        extra true
+        [print "Answer B"]         
+    ]
+
+    ; Answer C
+        ;box 732x418 793x578 
+        at 553x450
+        panel 170x125 [
+        backdrop (dark-blue) 
+        at 10x35
+        text font (font-answer) wrap
+        { > 10 Mb} 
+        extra true
+        [print "Answer C"]         
+    ] 
+
+    ; Answer D
+        ;box 227x418 287x578
+        at 288x450
+        panel 180x100 [
+        backdrop (150.122.189) 
+        at 10x30
+        text font (font-answer) wrap
+        { > 1 Mb} 
+        extra true
+        [print "Answer D"]         
+    ]         
+
 ]
 
 view layout win
