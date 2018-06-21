@@ -105,6 +105,7 @@ win: compose/deep [
         box 512x418 732x578 
 
         fill-pen radial (150.122.189) (84.162.253)
+        ;I want center at 511x417 but this doesn't work
         ;fill-pen radial (150.122.189) (84.162.253) 0 511x417
         box 287x418 512x578                 
 
