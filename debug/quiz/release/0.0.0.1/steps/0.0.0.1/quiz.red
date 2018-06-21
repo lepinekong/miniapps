@@ -52,7 +52,9 @@ win: compose/deep [
     title (title)
     
     origin 0x0 space 0x0
+
     base (base-size)
+
     draw [
 
         pen off ; will remove black border for shapes
