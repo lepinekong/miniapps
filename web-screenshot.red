@@ -17,41 +17,7 @@ Red [
     ]
 ]
 
-do read http://redlang.red/web-screenshot
-do read http://redlang.red/file-io.red
-do read http://redlang.red/expand-string.red
-
-; .web-screenshot: function[>Url >Output-folder >Output-file /no-wait][
-
-;     Url: >Url ; http://miniapps.red/
-;     Output-folder: >Output-folder ; {C:\rebol\.system\test\} 
-;     Output-file: >Output-file ; %test-new.png 
-
-;     if not exists? red-output-folder: to-red-file Output-folder [
-;         make-dir/deep red-output-folder
-;     ]    
-
-;     ; call {"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  
-;     ; --screenshot=C:\rebol\.system\test\test-new.png http://miniapps.red/ 
-;     ; --headless --disable-gpu"}
-
-;     command: .expand-string {<%Chrome%> --screenshot=<%Output-folder%><%Output-file%> <%Url%> --headless --disable-gpu} [
-;         Chrome: {"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"}
-;         Url: >Url ; http://miniapps.red/
-;         Output-folder: >Output-folder ; {C:\rebol\.system\test\} 
-;         Output-file: >Output-file ; %test-new.png        
-;     ]
-
-;     ?? command
-
-;     either no-wait [
-;         call command
-;     ][
-;         call/wait command
-;     ]
-; ]
-
-; Web-Screenshot: :.web-screenshot
+do read http://redlang.red/web-screenshot ; requires google chrome installed in usual directory
 
 fld-size: make pair! compose [400 24]
 
@@ -61,26 +27,22 @@ win: compose/deep [
         .url: fld-url/data
         .folder: fld-folder/data
         .filename: fld-filename/data
-        either exists? to-red-file Web-Screenshot .url .folder .filename [
-            print "ok!"
-        ][
-            print "error!"
-        ]
-        ;image/data: load to-red-file rejoin [.folder .filename]
+        either exists? img-file: .Web-Screenshot .url .folder .filename [
+            print to-local-file img-file
+            img/data: load img-file
+            img/size: 400x400
+        ][print "error!"]
     ]
     return
-    text "folder" fld-folder: field  (fld-size) button "Select" []
-    return
-    text "file name" fld-filename: field  (fld-size) button "Save" []
-    return
-    img: image 0x0; (load to-red-file "C:\rebol\.system\test\test-new.png")
-    return
+    text "folder" fld-folder: field  (fld-size) button "Select" [] return
+    text "file name" fld-filename: field  (fld-size) button "Save" [] return
+    img: image 0x0; (load to-red-file "C:\rebol\.system\test\test-new.png") return
 
     do [
-        fld-url/data: http://google.com
+        fld-url/data: http://miniapps.red
         target-folder: clean-path rejoin [%./screenshot/]
         fld-folder/data: to-local-file target-folder
-        fld-filename/data: %google.png
+        fld-filename/data: %miniapps.png
     ]
 ]
 
