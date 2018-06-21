@@ -6,9 +6,10 @@ Red [
         Mac: TOTEST
         Linux: TOTEST
     ]
-    Build: 0.0.0.1
+    Build: 0.0.0.2
     History: [
         0.0.0.1 {Initial version}
+        0.0.0.2 {P: Adding Answers Panel}
     ]
     References: [
         https://twitter.com/Jamal7x7Jamal/status/1008269417124331520
