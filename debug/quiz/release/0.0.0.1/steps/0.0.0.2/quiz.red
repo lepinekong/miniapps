@@ -1,6 +1,6 @@
 Red [
     Title: "Quiz"
-    Description: {Take Web Screenshot by command line (just requires latest Google Chrome installed)}
+    Description: {Quiz)}
     Platforms: [
         Windows: yes
         Mac: TOTEST
