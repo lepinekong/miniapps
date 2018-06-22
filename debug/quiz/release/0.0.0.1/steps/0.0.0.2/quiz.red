@@ -11,7 +11,7 @@ Red [
         0.0.0.1 {Initial version}
         0.0.0.2 {D: Adding Answers Panel}
     ]
-    References: [
+    Inspirations: [
         https://twitter.com/Jamal7x7Jamal/status/1008269417124331520
         https://pbs.twimg.com/media/Df4XIenXkAAhZRo.jpg:large
     ]
