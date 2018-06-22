@@ -24,7 +24,7 @@ Red [
 Title: "Quiz App"
 font-title: make font! [ name: "Arial" ]
 
-Quiz-title: "Quiz on Programming"
+Quiz-title: "Quiz on Red language"
 font-quiz-title: make font! [ name: "Arial" ]
 
 Question: "What is the size of Red?"
