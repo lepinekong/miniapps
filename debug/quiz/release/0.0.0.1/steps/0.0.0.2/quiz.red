@@ -1,6 +1,6 @@
 Red [
     Title: "Quiz"
-    Description: {Quiz)}
+    Description: {Quiz}
     Platforms: [
         Windows: yes
         Mac: TOTEST
