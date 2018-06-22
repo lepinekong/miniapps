@@ -160,7 +160,7 @@ win: compose/deep [
         at 10x60
         text font (font-answer) wrap
         { > 500 Mb} 
-        extra true
+        extra false
         [print "Answer A"]         
     ]
 
@@ -173,7 +173,7 @@ win: compose/deep [
         at 10x60
         text font (font-answer) wrap
         { > 100 Mb} 
-        extra true
+        extra false
         [print "Answer B"]         
     ]
 
@@ -185,7 +185,7 @@ win: compose/deep [
         at 10x35
         text font (font-answer) wrap
         { > 10 Mb} 
-        extra true
+        extra false
         [print "Answer C"]         
     ] 
 
