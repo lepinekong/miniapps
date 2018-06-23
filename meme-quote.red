@@ -7,7 +7,9 @@ Red [
     Iterations: [
         0.0.0.1.0 {Initial version}
         0.0.0.1.1 {Signature - Pb: quote is truncated}
-        0.0.0.1.3 {Plan: fix quote truncated}        
+        0.0.0.1.3 {Plan: fix quote truncated
+            -> quote bottom should be max just above signature
+        }        
     ]    
 ]
 
