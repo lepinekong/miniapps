@@ -2,16 +2,14 @@ Red [
     Title: "meme-quote.red"
     Build: 0.0.0.1
     Builds: [
-        0.0.0.1 {Quote + Signature + Glyph}
+        0.0.0.1.1 {Signature}
     ]
     Iterations: [
         0.0.0.1.0 {Initial version}
         0.0.0.1.1 {Signature - Pb: quote is truncated}
         0.0.0.1.3 {Done: fix quote truncated
             quote bottom should be max just above signature
-        }  
-        0.0.0.1.4 {Glyph: “
-        }                  
+        }        
     ]    
 ]
 
