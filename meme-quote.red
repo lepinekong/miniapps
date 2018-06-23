@@ -10,7 +10,9 @@ Red [
         0.0.0.1.3 {Done: fix quote truncated
             quote bottom should be max just above signature
         }  
-        0.0.0.1.4 {Glyph: “
+        0.0.0.1.4 {Plan: Glyph “
+        at (glyph-position)
+        text (glyph-size) font (font-glyph) center {“}        
         }                  
     ]    
 ]
@@ -64,6 +66,9 @@ win: [
         at (signature-position)
         text (signature-size) font (font-signature) wrap center
         {- Edwards Deming}
+
+        ; at (glyph-position)
+        ; text (glyph-size) font (font-glyph) center {“}
     ]
 
 ]
