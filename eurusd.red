@@ -22,6 +22,7 @@ record: make reactor! [
     Rate: is [ records/(row)/3]
 ]
 
+
 header: [
     panel [
         text react [face/data: rejoin [record/Base-Currency "/" record/Target-Currency]] ; EUR/USD
@@ -36,6 +37,8 @@ header: [
 ]
 
 Title: "EUR/USD"
+
+
 win: layout compose [
     title (Title)
     panel header 
@@ -46,4 +49,9 @@ win: layout compose [
     
 ]
 
-view win
+if error? try [
+    view win
+][
+    print "Service not available, try again in a few seconds... (use arrow up key to repeat command)"
+]
+
