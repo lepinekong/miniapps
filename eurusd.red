@@ -1,7 +1,7 @@
 Red [
     Title: "eurusd.red"
     version: [0.0.0.2 {fixer.io support}]
-    Build: [0.0.0.2.14 {Cleaning: fixer.io support}]
+    Build: [0.0.0.2.18 {fixed "Your fixer.io API Key cannot be found in /C/rebol/config-file"}]
 ]
 
 do read http://redlang.red/json
@@ -11,7 +11,7 @@ records: copy []
 either exists? config-file: %config/eurusd.config.red [
     do read config-file
     if not value? 'fixerio-url [
-        print [{Your fixer.io API Key cannot be found in} clean-path %config-file]
+        print [{Your fixer.io API Key cannot be found in} clean-path config-file]
         print [{With fixer.io API Key, you can get hourly rate for free.}]
         print [{Will request daily rates from https://api.currex.info/json/latest/USD/}]
     ]
@@ -19,7 +19,7 @@ either exists? config-file: %config/eurusd.config.red [
 ][
     make-dir/deep %config
     write config-file read http://miniapps.red/config/eurusd.config.template.red
-    print [{created} clean-path %config-file]
+    print [{created} clean-path config-file]
     API-Key: ask {If you have a fixer.io Key (optional) enter it here or edit config file. Just type enter for none: }
     n: (length? API-Key)
     ?? n
@@ -30,9 +30,9 @@ either exists? config-file: %config/eurusd.config.red [
         compose [
             replace-with-your-api-key: (API-Key)
         ]
-        print [{Your fixer.io API Key has been written to} clean-path %config-file]
+        print [{Your fixer.io API Key has been written to} clean-path config-file]
     ][
-        print [{You can add your fixer.io API Key later on in} clean-path %config-file]   
+        print [{You can add your fixer.io API Key later on in} clean-path config-file]   
     ]
     do read config-file
 
