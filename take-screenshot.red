@@ -4,7 +4,10 @@ Red [
 
 do https://redlang.red/chrome/take-screenshot.red
 
-sysTake-Screenshot: :take-screenshot
+if not value? sysTake-Screenshot [
+    sysTake-Screenshot: :take-screenshot
+]
+
 
 system/lexer/pre-load: func [src part][
     parse src [
@@ -28,3 +31,4 @@ system/lexer/pre-load: func [src part][
         ]
     ]
 ]
+
