@@ -1,5 +1,8 @@
 Red [
-    Title: "take-screenshot.red"
+    Title: "take-screenshot.1.red"
+    Iterations: [
+        0.0.0.1.1 {Initial version}
+    ]
 ]
 
 do https://redlang.red/chrome/take-screenshot.red
