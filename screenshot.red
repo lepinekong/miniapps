@@ -1,6 +1,6 @@
 Red [
-    Title: "take-screenshot.4.red"
-    Build: [0.0.0.4.8 {Support for multiple alias}]
+    Title: "screenshot.1.red"
+    Build: [0.0.0.1.1 {Initial version}]
 ]
 
 do https://redlang.red/chrome/take-screenshot.red
