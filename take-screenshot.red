@@ -4,7 +4,7 @@ Red [
 
 do https://redlang.red/chrome/take-screenshot.red
 
-if not value? sysTake-Screenshot [
+if not value? 'sysTake-Screenshot [
     sysTake-Screenshot: :take-screenshot
 ]
 
