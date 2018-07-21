@@ -1,7 +1,8 @@
 Red [
     Title: "take-screenshot.1.red"
     Iterations: [
-        0.0.0.1.1 {Initial version}
+        0.0.0.1.2 {| "take screenshot of " copy arg1 to space [" in " | " to " | ] copy arg2 to end }
+        0.0.0.1.1 {Initial version - bug if "in" is forgotten}
     ]
 ]
 
@@ -21,12 +22,12 @@ system/lexer/pre-load: func [src part][
             |            
             s: [
                 [
-                "take-screenshot" copy arg1 to space copy arg2 to space to newline 
-                | "take-screenshot" copy arg1 to space copy arg2 to end
-                "take screenshot" copy arg1 to space copy arg2 to space to newline 
-                | "take screenshot" copy arg1 to space copy arg2 to end 
-                "take screenshot of " copy arg1 to space " in " copy arg2 to space to newline 
-                | "take screenshot of " copy arg1 to space " in " copy arg2 to end                                
+                "take-screenshot " copy arg1 to space copy arg2 to space to newline 
+                | "take-screenshot " copy arg1 to space copy arg2 to end
+                "take screenshot " copy arg1 to space copy arg2 to space to newline 
+                | "take screenshot " copy arg1 to space copy arg2 to end 
+                "take screenshot of " copy arg1 to space [" in " | " to " | ] copy arg2 to space to newline 
+                | "take screenshot of " copy arg1 to space [" in " | " to " | ] copy arg2 to end                                
                 ] 
                 (new: rejoin ["take-screenshot" { } arg1 { } arg2] )
             ] e: (s: change/part s new e) :s 
