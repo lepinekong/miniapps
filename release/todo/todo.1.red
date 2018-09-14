@@ -50,19 +50,36 @@ Red [
 window-caption: "To do"
 >out-filename: %.TODO
 
+; this is to memorize the path of the script as Red has no way to know it :(
+; as in some context the path is not always the current dir nor .system/options/script
+; static-path: [] 
+; ; initialization
+; if empty? static-path [
+
+;     if error? try [
+;         append static-path split-path .system/context/script ; context execution is within the .system 
+;     ][
+;         either system/options/script [
+;             append static-path split-path system/options/script ; context execution is script standalone
+;         ][
+;             ; system/options/script = none if code pasted in console
+;             append static-path compose [ (what-dir) none ]
+;         ]
+;     ]
+; ]  
+
+; out-folder: static-path/1 
 >out-folder: %./
 
 ;===========================================================================================
 ; PREAMBLE
 ;===========================================================================================
 
-    >builds: [
-        0.0.0.1.12 {initial version}
-    ]
-
 ;self script path
 
 script-path: system/options/script
+
+
 ;library
 set-topmost: function [.hwnd-file /show][ ; uses win32 API
 
@@ -99,28 +116,18 @@ window-opened?: function[.window-title][
 ]
 
 
-
 ;===========================================================================================
 ; PROGRAM
 ;===========================================================================================
 
-.app.note: function [ 
+.app.jot.note: function [ 
     /no-topmost 
     /no-timestamp  
     /folder >out-folder ; 0.0.0.1.7
     /filename >out-filename ; 0.0.0.1.7
-    /_build >build ; 0.0.0.1.12
     /local static-path 
     /extern note-file event-handler text-area resized-window resized-window-width; extern necessary when using view/no-wait
 ][
-    
-    if _build [
-        unless silent [
-            ?? >builds
-        ]
-        return >builds
-    ]
-
     if not folder [
         >out-folder: system/words/>out-folder
     ]
@@ -221,13 +228,11 @@ window-opened?: function[.window-title][
 ]
 
 
-Jot-Note: :.app.note ; alias
-Jot: :.app.note ; alias
-Note: :.app.note ; alias
-todo: :.app.note ; alias
-
+Jot-Note: :.app.jot.note ; alias
+Jot: :.app.jot.note ; alias
+Note: :.app.jot.note ; alias
 
 if not value? '.system [
-    todo
+    Jot
 ]
 
