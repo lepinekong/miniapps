@@ -47,7 +47,7 @@ Red [
 ]
 
 
-window-caption: "To do"
+>Window-Caption: "To do"
 >out-filename: %.TODO
 
 >out-folder: %./
@@ -57,8 +57,9 @@ window-caption: "To do"
 ;===========================================================================================
 
     >builds: [
-        0.0.0.1.12 {initial version}
+        0.0.0.2.2.1 {initial version}
     ]
+    >Area-Size: 270x700
 
 ;self script path
 
@@ -110,6 +111,7 @@ window-opened?: function[.window-title][
     /folder >out-folder ; 0.0.0.1.7
     /filename >out-filename ; 0.0.0.1.7
     /_build >build ; 0.0.0.1.12
+    /silent
     /local static-path 
     /extern note-file event-handler text-area resized-window resized-window-width; extern necessary when using view/no-wait
 ][
@@ -134,7 +136,7 @@ window-opened?: function[.window-title][
     ?? info-path
     
 
-    if window-opened? window-caption [
+    if window-opened? >window-caption [
         ; if Jot launched already, Set Jot to Foreground
         if (exists? hwnd-file) [ ; hwnd file has been created to store Win32 window handle when Set-Topmost is called
             hwnd: read hwnd-file ; have to read from a file as a layman's way to do interop
@@ -142,8 +144,8 @@ window-opened?: function[.window-title][
             return false ; false means not created            
         ]
     ]
-    Title: rejoin [window-caption ":"] ; title of window bar
-    Area-Size: 270x700 ; vertical jot note
+    Title: rejoin [>Window-Caption ":"] ; title of window bar
+    Area-Size: >Area-Size ; vertical jot note
     note: copy rejoin ["# " now/date " " now/time ] ; date stamp
     append note newline append note newline ; for nicer formatting
     if (exists? note-file) [ ; first time note-file doesn't exist
